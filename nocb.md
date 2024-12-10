@@ -62,8 +62,16 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 ### 2024.12.10
 
-笔记内容
+#### 基本的介绍
 
+- ARB is Optimistic rollup protocol ，is a L2  
+- L2 是为了Ethereum的扩容
+- L1 保证了L2的安全性，
+- The only delay that's felt by a user is in "withdrawing" — moving their funds from Arbitrum back to Ethereum;
+- 批次，压缩 ，所以L2的费用低和效率高
+- 最新技术栈：Stylus ，可以支持 rust
+
+- 
 ### 2024.12.10
 
 <!-- Content_END -->
