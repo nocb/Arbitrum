@@ -195,9 +195,10 @@ Telegram：[Arbitrum 残酷共学](https://t.me/LXDAO/15575)
 | linyuanye3 | ✅ | ⭕️ | ✅ | ⭕️ | ✅ | | | | | | | | | | | | | | | | |
 | joyc | ✅ | ✅ | ✅ | ✅ | ⭕️ |   | | | | | | | | | | | | | | | |
 | CornellZheng | ✅ | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | |
-| YOUKUAIHAOMUTOU | ✅ | ✅ | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | |
+| YOUKUAIHAOMUTOU | ✅ | ✅ | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | |
 | wodeche | ✅ | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
