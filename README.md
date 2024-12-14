@@ -169,7 +169,7 @@ Telegram：[Arbitrum 残酷共学](https://t.me/LXDAO/15575)
 | StarryDesert | ✅ | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | |
 | a-super-cat | ✅ | ✅ | ✅ | ⭕️ |   | | | | | | | | | | | | | | | | |
 | pillowtalk-Qy | ✅ | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | |
-| hechichu | ✅ | ✅ | ✅ | ✅ |   | | | | | | | | | | | | | | | | |
+| hechichu | ✅ | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | |
 | nocb | ✅ | ✅ | ✅ | ✅ |   | | | | | | | | | | | | | | | | |
 | ChinesePaladin61 | ✅ | ✅ | ✅ | ⭕️ | ✅ | | | | | | | | | | | | | | | | |
 | jjeejj | ✅ | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | |
@@ -198,6 +198,7 @@ Telegram：[Arbitrum 残酷共学](https://t.me/LXDAO/15575)
 | YOUKUAIHAOMUTOU | ✅ | ✅ | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | |
 | wodeche | ✅ | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
