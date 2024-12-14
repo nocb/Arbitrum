@@ -78,4 +78,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Rollup，ZK Rollups 与 Optimistic，Arbitrum 的区别](https://cloud.tencent.com/developer/news/1003179)
 
+### 2024.12.14
+
+阅读文档[欺诈证明](https://docs.arbitrum.io/how-arbitrum-works/fraud-proofs/challenge-manager)
+
 <!-- Content_END -->
