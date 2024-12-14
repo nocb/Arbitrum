@@ -78,4 +78,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.13
 
 1. 进一步学习 One、Nitro、Nova 详解 https://community.dorahacks.io/t/arbitrum-one-nitro-nova/562
+
+### 2024.12.14
+
+1. 阅读学习 深入理解 Arbitrum 文章 https://www.theblockbeats.info/news/26507
 <!-- Content_END -->
