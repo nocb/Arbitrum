@@ -521,4 +521,25 @@ Arbitrum Stylus 是一个新的开发工具，为开发者提供更高效的智�
   
   Stylus 为 Arbitrum 提供了一种扩展智能合约开发的方式，帮助开发者构建更复杂的应用和生态系统
 
+#### 2024.12.14
+
+##### Arbitrum Protocol 技术升级
+
+自 Arbitrum Protocol 诞生以来，进行了几次重大的技术升级，这些升级旨在提高性能、扩展能力、兼容性和开发者体验。
+
+| 升级版本 | 时间 | 升级要点 |  影响 |
+|-----|-----|-----|-----|
+| Arbitrum Rollup (Classic) | 2021年5月 | 初始版本，基于 AVM 的 Optimistic Rollup 实现 | 提供基本的扩容功能，但性能和兼容性有限 |
+| Arbitrum Nitro | 2022年8月 | 基于 Geth 的 WASM 执行环境，EVM 完全兼容，性能提升 | 显著提升性能和开发体验，生态繁荣 |
+| Arbitrum Nova  | 2022年7月 | AnyTrust 架构，适合高频、低成本交易场景 | 为社交和游戏等应用场景提供解决方案 |
+| Arbitrum Orbit | 2023年 | 提供自定义 Rollup 框架，支持 Layer 3 网络 | 推动 Layer 3 生态发展，增强灵活性 |
+| Arbitrum Stylus | 2023年 | 支持 Rust、C 等语言开发智能合约，提升性能和开发自由度 | 扩展开发者群体，提升合约执行效率 |
+
+目前， 基于Arbitrum Protocol 的区块链
+
+| 名称 | 架构 | 定位 |  应用场景 |
+|-----|-----|-----|-----|
+| Arbitrum One  | Optimistic Rollup | 通用 Layer 2 主链 | DeFi、NFT、通用链上应用 |
+| Arbitrum Nova | AnyTrust | 高频交易和低费用应用链 | 游戏、社交、微交易 |  
+
 <!-- Content_END -->
