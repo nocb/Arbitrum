@@ -249,4 +249,15 @@ Arbitrum Nova 基于 AnyTrust 技术，专为游戏、社交应用程序和对�
 
 通过这些设计，Arbitrum Nova 在一定程度上牺牲了去中心化特性，但相比其他侧链和采用 BFT 共识的链，仍具有较高的优势。
 
+### 2024.12.15
+![image](https://github.com/user-attachments/assets/982ba281-f27a-47fc-b326-7ef7f69b96f4)
+Original napkin sketch drawn by Arbitrum co-founder Ed Felten
+
+![image](https://github.com/user-attachments/assets/fe1421b3-85c1-402f-8359-2e13356ac8ad)
+Nitro 如何处理事务
+
+![image](https://github.com/user-attachments/assets/d4c12796-a5dc-4218-ad7f-27b59db86281)
+
+<img width="844" alt="image" src="https://github.com/user-attachments/assets/f5567c23-ed1b-4eb4-938a-92550bee95f0" />
+
 <!-- Content_END -->

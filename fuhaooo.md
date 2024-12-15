@@ -233,5 +233,46 @@ Wrap功能可以使用，但这些新生成的WETH如果跨回到L1，也无法�
 
 OutBox合约会记录哪些L2到L1的跨链消息已经被处理过，以防止有人反复提交执行过的提现请求。它通过mapping(uint256 => bytes32) public spent，记录提现请求的spent Index与信息对应关系，如果mapping[spentIndex] != bytes32(0)则该请求已被提现过。原理类似于防止重放攻击的交易计数器Nonce。
 
+### 2024.12.15
 
+### 充值与提现流程
+
+以ETH为例完整讲解充值与提现的流程。ERC20与之不同的仅仅是⾛了Gateway
+
+### ETH充值
+![image](https://github.com/user-attachments/assets/a7fa9e0f-001b-43c8-a12e-d3338d86f4a0)
+
+1. 用户调用慢箱的depositETH()函数。
+
+2. 该函数会继续调用bridge.enqueueDelayedMessage()，在bridge合约中记录该消息，并将ETH发送往bridge合约。所有的ETH充值资金，都保管在bridge合约中，相当于一个充值地址。
+
+3. 排序器监听到慢箱中的充值消息，将充值操作反映⾄L2数据库中，⽤户可以在L2网络看到自己充进来的资产。
+
+4. 排序器将该笔充值记录包含进交易批次batch，提交给L1上的快箱合约。
+
+### ETH提现
+![image](https://github.com/user-attachments/assets/3da94536-68f7-429d-bf36-acded86fe2e8)
+
+1. ⽤户在L2上调⽤ ArbSys合约的withdrawEth()函数 ，在L2上销毁相应数量的ETH。
+
+2. 排序器将该提现请求发送⾄快箱。
+
+3. Validator节点根据快箱中的交易序列，创建新的Rollup Block，其中会包含上述提款交易。
+
+4. Rollup Block度过了挑战期并被确认后，⽤户可以在L1上调用Outbox.execute Transaction()函数，证明参数由前面提到的ArbSys合约给出。
+
+5. Outbox 合约确认⽆误后，解锁bridge中相应数额的ETH发送给⽤户。
+
+### 强制提现
+force Inclusion()强制归集功能用于对抗定序器的审查，任何L2本地交易、L1到L2交易和L2到L1交易，都可以使用该功能实现。定序器的恶意审查严重影响了交易体验，大部分情况下我们会选择提现离开L2，因此下面以强制提现为例介绍forceInclusion的用法。
+
+回顾在ETH提现步骤中，只有步骤1、2是涉及到定序器审查的，所以只需要更改这两步：
+
+调用L1上慢箱合约中的inbox.sendL2Message()，输入参数就是在L2上调用withdrawEth()时需要输入的参数。该消息会共享给L1上的bridge合约。
+
+等待24小时的强制归集等待期后，调用快箱中的force Inclusion()进行强制归集，快箱合约会检视bridge中是否有对应消息。
+
+最终用户可以在Outbox中提现，其余步骤由同正常的提现相同。
+
+另外，arbitrum-tutorials中也有使用Arb SDK的详细教程去指导用户如何通过forceInclusion()去进行L2本地交易和L2到L1交易。
 <!-- Content_END -->

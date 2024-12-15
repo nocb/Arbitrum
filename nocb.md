@@ -127,6 +127,21 @@ Arbitrum Stylus  write contract with rust
 ### 2024.12.14
 
 ### 2024.12.15
+#### L2技术类型
+- Zk Rollups是指一种利用零知识证明的密码学算法，在无需知道验证者是谁的情况下，完成外包工作的Layer2方法。
+- Optimistic Rollups是指利用一堆验证者，在默认打包是好的情况下，通过奖惩机制，监督发掘是否有Bug的Layer2方法。
+	- Optimism和Arbitrum都是Optimisctic Rollups方法为基础开发的项目。
+	- starknet  是 zk rollup 
+
+#### ARB的逻辑
+- Rollup 上，对合约的调用及其 argument（实际参数）都是作为调用数据（calldata）写在链上的，但是合约的实际计算和存储都是在链下完成的
+这个发布上链的断言将所有的调用和结果都 “卷起来”（“rolling up”）成为单笔发送上链的交易。
+
+- AVM 是L1 和L2 直接的网关，avm读取输入，计算，输出
+- Nitro 是 One 的技术栈升级，
+- Arbitrum Nova 是基于 AnyTrust 技术搭建的新链，专为游戏、社交应用程序和对成本更敏感的用例而设计-
+- Arbitrum Orbit 是一个开发框架，
+- Stylus 是 Arbitrum 开发的支持多语言构建应用程序的开源 SDK 
 
 ### 2024.12.16
 
