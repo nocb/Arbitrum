@@ -82,4 +82,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[欺诈证明](https://docs.arbitrum.io/how-arbitrum-works/fraud-proofs/challenge-manager)
 
+### 2024.12.15
+
+阅读文档[非官方欺诈证明](https://www.theblockbeats.info/news/26507)
+
 <!-- Content_END -->
