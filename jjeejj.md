@@ -82,4 +82,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.14
 
 1. 阅读学习 深入理解 Arbitrum 文章 https://www.theblockbeats.info/news/26507
+
+### 2024.12.15
+
+1. 简单了解下 Arbitrum 生态 [Messari：深度分析 Arbitrum 的繁荣生态](https://www.theblockbeats.info/news/35982)
 <!-- Content_END -->
