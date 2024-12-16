@@ -218,4 +218,36 @@ Arbitrum 的生态围绕 Layer 2 扩展技术构建，提供高效、低成本�
 
 纳入 The Arbitrum Odyssey 生态采用计划的 56 个项目中，在经过社区投票后，Yield Protocol、Hashflow、Aboard Exchange、tofuNFT、Uniswap、ApeX、1inch、Yin Finance、DODO、Swapr、Treasure DAO、BattleFly、Ideamarket 和 SushiSwap 晋级
 
+### 2024.12.16
+
+### Arbitrum Orbit是什么？
+
+Arbitrum Orbit 允许无需许可地构建自己的专用链。每个 Orbit 链都可以配置为使用 Rollup 或 AnyTrust，自定义设置吞吐量、隐私、Gas 代币、治理、协议逻辑、独立产品路线图，同时受益于 Stylus 引入的相同 EVM+ 兼容性，也允许用 Solidity、C、C++ 和 Rust 部署与 EVM 兼容的智能合约。
+
+本月初，Arbitrum Orbit 新增对自定义 Gas 代币的支持，允许 Orbit 链能够选用特定的 ERC-20 代币作为 Gas 费用。这一功能支持的重要性不言而喻，将有助于 Orbit 链能够增强自有代币的实用性并扩大其生态系统。
+
+### Arbitrum Orbit 生态汇总
+
+经 Foresight News 盘点，目前已披露将利用 Arbitrum Orbit 推出 Orbit 链的项目有 18 个，这些项目主要涉及游戏、衍生品、流动性、NFT 等领域，希望借助 Orbit 链发挥低成本交易 / 交互、高吞吐量，自定义 Gas，自定义治理以及灵活的安全模型等优势。
+
+此外，Arbitrum 还与 Rollup 即服务平台 Caldera、AltLayer 以及 Conduit 建立了合作关系，支持开发者启动自己的自定义 Rollup。
+
+### Xai
+
+Xai 是 Arbitrum 背后团队 Offchain Labs 合作开发、由 Xai 基金会管理的 Arbitrum Orbit L3 游戏专用链（利用 Anytrust 技术）。Xai 文档显示，Offchain Labs 将在 Xai 基金会的指导下开发 Xai 区块链并为其提供服务，还将为 Xai 网络和生态系统提供持续的营销支持。
+
+Xai 专为游戏量身定制，旨在为游戏玩家提供抽象的钱包和账户体验，为开发者提供更高的 Gas 和合约限制，并建立一个完全去中心化的生态系统，促进所有参与者的信任和透明度。
+
+Xai 基金会的主要目标是促进 XAI 区块链生态系统内的开发者和游戏的发展，并吸引第三方开发商和游戏加入该平台，促进部署到 Xai 的游戏的有效营销策略等。
+
+### OurSong
+
+OurSong 是一个社交音乐 NFT 平台，2022 年 4 月份，其背后开发商 Our Happy Company 完成 750 万美元种子轮融资，Infinity Ventures 和 Animoca Brands 领投，参投方包括 Cherubic Ventures、Circle Ventures 等。
+
+Our Happy Company 由著名音乐家和制作人 John Legend、KKBOX 创始人 Chris Lin 和 Twitch 的创始人 Kevin Lin 等联合创立，该公司旗舰产品 OurSong 旨在为包括音乐家和艺术家在内的创作者提供一种更公平的方式来提供数字创作服务，并将他们的作品货币化以及构建社区。
+
+### Hook Protocol
+
+Hook Protocol 是一个同时支持永续和期权的 NFT 衍生品 DEX，已在 11 月份发布 Hook Odyssey 测试网预览版。Odyssey 是一个专注于 NFT 的衍生品 DEX，部署在定制的 Arbitrum Orbit Chain 上。
+
 <!-- Content_END -->
