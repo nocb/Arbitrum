@@ -124,7 +124,7 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 ### 2024.12.17
 
-
+Nitro 代表了 Arbitrum 技术发展的最新一步；它是首次在主网 Arbitrum One 链上发布的技术堆栈的升级版，我们现在将其称为“Arbitrum Classic”（并且比2018 年最初的 Arbitrum 白皮书中描述的要高出几步）。在这里，我们将解释 Nitro 升级背后的理由，并概述 Nitro 相对于经典系统的核心优势。从远处看，Classic 和 Nitro 系统做类似的事情：都试图创建一个尽可能接近 EVM 的执行环境，作为以太坊的第二层运行；也就是说，L2 虚拟机状态更新的安全性可以通过以太坊本身的简洁欺诈证明来保证和执行。在 Arbitrum Classic 中，这是通过定制的虚拟机实现的，我们称之为 Arbitrum 虚拟机 (AVM)。Arbitrum 的 L2 状态机的实现（称为“ArbOS”）实际上是一个编译并上传到 AVM 的程序；ArbOS 包括（除其他功能外）模拟 EVM 执行的能力。在 Nitro 中，我们使用 WebAssembly (Wasm)，而不是使用 AVM 执行低级指令。由于 Go 代码可以编译为 Wasm，因此我们可以用 Go 实现 ArbOS 程序，并在其中（作为子模块）包含Geth 本身，这是最广泛使用的以太坊实现。这种架构（可直接使用 Geth 的 EVM 实现）是 Nitro 的定义性特征，也是我们谈论“Nitro”时主要谈论的内容。Nitro 的大部分优势都是这种设计选择的直接或间接结果。我们可以将这些优势总结如下：费用更低、以太坊兼容性更好、简单易用。
 
 ### 2024.12.17
 
