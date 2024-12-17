@@ -139,4 +139,8 @@ Arbitrum One是典型的OPR，它部署在L1上的合约，并不主动验证提
 3.ChallengeManager合约只检查对原始数据进行细分后，产生的『数据片段』是否有效。
 4.当挑战者和被挑战者定位到了将被挑战的那条机器指令后，挑战者调用oneStepProveExecution()，发送单步欺诈证明，证明这条机器指令的执行结果有问题。
 单步证明最终证明的是WAVM指令集中的单步指令，当合约拿到对应的单步指令后，会与RollUp Block中的指令进行对比，如果不同则挑战成功，如果相同则挑战失败。
+### 2024.12.17
+## Any Trust Chain
+使用Any Trust Chain 可以显著的降低交易的手续费，其与Roll up 网络不同，它并没有采用和Roll up 一样的去中心化/无需信任/无需认证的安全措施，与Roll up 不同，它并没有把全部数据打包上传到L1网络上，它是一种链下的处理方案。当遇到问题时，其会转换为Roll up 模式，使用Any Trust Chain 时必须要有两个验证者保持为诚实的。对于那些需要非常高的交易吞吐量和并不需要严格去中心化的应用，Any Trust Chain 将是一个非常好的选择。
+在Arbitrum网络中，Arbitrum One 为 Roll up 网络，Arbitrum Nova 为 Any Trust Chain 网络。
 <!-- Content_END -->
