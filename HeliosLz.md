@@ -278,4 +278,12 @@ Nitro 如何处理事务
 1. 多客户端支持
 2. 零知识证明：ZK+乐观混合证明
 
+**Arbitrum 网络概述**
+
+![image](https://github.com/user-attachments/assets/7fa0cb82-06e6-45d5-be05-b6aabc8c50df)
+
+应用生态系统
+![image](https://github.com/user-attachments/assets/dfa322ce-aca1-44b8-b168-8221cbcdc2c0)
+
+
 <!-- Content_END -->
