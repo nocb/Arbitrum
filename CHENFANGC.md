@@ -90,4 +90,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Nitro vs. Classic](https://docs.arbitrum.io/how-arbitrum-works/why-nitro)
 
+### 2024.12.17
+
+阅读文档[Arbitrum 详解 - One、Nitro、Nova](https://community.dorahacks.io/t/arbitrum-one-nitro-nova/562)
+
 <!-- Content_END -->
