@@ -39,4 +39,11 @@ Arbitrum（ARB）
 生态系统：
 拥有丰富的 DeFi 生态，包括 Uniswap、Aave 等知名协议。
 社区活跃，开发者支持力度大。
+
+### 2024.12.17
+Arbitrum DAO：
+$ARB 代币持有者可以参与 Arbitrum DAO 的治理，投票决定 Arbitrum 生态系统的重要决策。
+治理范围包括协议升级、资金分配、生态系统发展等。
+去中心化治理：
+$ARB 代币持有者可以通过链上投票表达意见，确保 Arbitrum 生态的去中心化和社区自治。
 <!-- Content_END -->
