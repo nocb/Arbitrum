@@ -218,4 +218,53 @@ Arbitrum 的生态围绕 Layer 2 扩展技术构建，提供高效、低成本�
 
 纳入 The Arbitrum Odyssey 生态采用计划的 56 个项目中，在经过社区投票后，Yield Protocol、Hashflow、Aboard Exchange、tofuNFT、Uniswap、ApeX、1inch、Yin Finance、DODO、Swapr、Treasure DAO、BattleFly、Ideamarket 和 SushiSwap 晋级
 
+### 2024.12.16
+
+### Arbitrum Orbit是什么？
+
+Arbitrum Orbit 允许无需许可地构建自己的专用链。每个 Orbit 链都可以配置为使用 Rollup 或 AnyTrust，自定义设置吞吐量、隐私、Gas 代币、治理、协议逻辑、独立产品路线图，同时受益于 Stylus 引入的相同 EVM+ 兼容性，也允许用 Solidity、C、C++ 和 Rust 部署与 EVM 兼容的智能合约。
+
+本月初，Arbitrum Orbit 新增对自定义 Gas 代币的支持，允许 Orbit 链能够选用特定的 ERC-20 代币作为 Gas 费用。这一功能支持的重要性不言而喻，将有助于 Orbit 链能够增强自有代币的实用性并扩大其生态系统。
+
+### Arbitrum Orbit 生态汇总
+
+经 Foresight News 盘点，目前已披露将利用 Arbitrum Orbit 推出 Orbit 链的项目有 18 个，这些项目主要涉及游戏、衍生品、流动性、NFT 等领域，希望借助 Orbit 链发挥低成本交易 / 交互、高吞吐量，自定义 Gas，自定义治理以及灵活的安全模型等优势。
+
+此外，Arbitrum 还与 Rollup 即服务平台 Caldera、AltLayer 以及 Conduit 建立了合作关系，支持开发者启动自己的自定义 Rollup。
+
+### Xai
+
+Xai 是 Arbitrum 背后团队 Offchain Labs 合作开发、由 Xai 基金会管理的 Arbitrum Orbit L3 游戏专用链（利用 Anytrust 技术）。Xai 文档显示，Offchain Labs 将在 Xai 基金会的指导下开发 Xai 区块链并为其提供服务，还将为 Xai 网络和生态系统提供持续的营销支持。
+
+Xai 专为游戏量身定制，旨在为游戏玩家提供抽象的钱包和账户体验，为开发者提供更高的 Gas 和合约限制，并建立一个完全去中心化的生态系统，促进所有参与者的信任和透明度。
+
+Xai 基金会的主要目标是促进 XAI 区块链生态系统内的开发者和游戏的发展，并吸引第三方开发商和游戏加入该平台，促进部署到 Xai 的游戏的有效营销策略等。
+
+### OurSong
+
+OurSong 是一个社交音乐 NFT 平台，2022 年 4 月份，其背后开发商 Our Happy Company 完成 750 万美元种子轮融资，Infinity Ventures 和 Animoca Brands 领投，参投方包括 Cherubic Ventures、Circle Ventures 等。
+
+Our Happy Company 由著名音乐家和制作人 John Legend、KKBOX 创始人 Chris Lin 和 Twitch 的创始人 Kevin Lin 等联合创立，该公司旗舰产品 OurSong 旨在为包括音乐家和艺术家在内的创作者提供一种更公平的方式来提供数字创作服务，并将他们的作品货币化以及构建社区。
+
+### Hook Protocol
+
+Hook Protocol 是一个同时支持永续和期权的 NFT 衍生品 DEX，已在 11 月份发布 Hook Odyssey 测试网预览版。Odyssey 是一个专注于 NFT 的衍生品 DEX，部署在定制的 Arbitrum Orbit Chain 上。
+
+### 2024.12.17
+
+### 代币经济模型
+
+### $ARB 代币概述
+
+$ARB 代币是一种 ERC-20 治理代币，允许其持有者参与 Arbitrum DAO 的链上治理协议。$ARB 代币由位于 Arbitrum One 上的智能合约铸造
+如果你拥有 $ARB 代币，你可以对影响 Arbitrum One 和 Arbitrum Nova 链运行和演变的治理提案进行投票。这包括对链的升级提案，以及关于如何使用 DAO 金库内资金的提案。
+
+当您对链上提案进行投票时，您是在使用 $ARB 代币来表示您的支持或反对。您拥有的代币越多$ARB，您的投票将产生更大的影响力。这是因为 Arbitrum DAO 的智能合约的实现方式是投票是代币加权的，这意味着投票的力量是由选民钱包代表的代币数量精确决定的。
+
+请注意，$ARB 代币可以委托给其他钱包。这意味着您可以使用自己的 $ARB 代币（您自己钱包中的代币）进行投票，但您也可以使用其他人的 $ARB 代币进行投票，只要这些代币的所有者已将他们的投票权委托给您。委托对于没有时间承诺定期审查和讨论 DAO 提案的 DAO 成员很有用1.
+
+$ARB 的初始供应量为 100 亿枚。新$ARB的铸造速度最多为每年供应量的 2%，其中第一批铸币厂将于 2024 年 3 月 15 日获得资格。$ARB铸造活动均由 DAO 通过宪法提案执行。
+
+总而言之，$ARB 代币是一种特殊用途的数字资产，它使其持有者能够对影响 Arbitrum DAO 及其所管理技术的运行和发展的链上提案进行投票。持有 $ARB 代币可以让你与其他价值观一致和激励机制一致的代币持有者一起民主地塑造 Arbitrum 生态系统的未来。
+
 <!-- Content_END -->
