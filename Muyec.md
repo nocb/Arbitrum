@@ -104,4 +104,12 @@ Nitro 是 Arbitrum 的核心技术栈之一，通过直接编译 Geth 核心，�
 ### 2024.12.16
 
 Arbitrum One 是基于 Optimistic Rollup 技术的以太坊扩展链，结合 L1 和 L2 架构，通过 EthBridge 和 Arbitrum 虚拟机（AVM）实现智能合约执行和数据交互。Nitro 是 Arbitrum One 的升级版本，提供更低费用、更高以太坊兼容性，并通过 zk 证明和优化的 Geth 引擎提升性能。Arbitrum Nova 则是专为游戏和社交应用等高频交互的 DApp 设计的链，采用 AnyTrust 技术，提供两种数据发布方式，通过牺牲部分安全性提升性能，适合成本敏感的用例。
+
+
+### 2024.12.17
+Nitro 代表了 Arbitrum 技术发展的重要一步，是 Arbitrum One 主网的技术堆栈的升级版，我们现在称之为“Arbitrum Classic”，它比 2018 年最初的 Arbitrum 白皮书描述的技术更为先进。本文将解释 Nitro 升级的原因，并概述其相对于经典系统的核心优势。
+从宏观来看，Classic 和 Nitro 系统的目标相似：都旨在提供一个尽可能接近 EVM（以太坊虚拟机）的执行环境，作为以太坊的第二层（L2）解决方案。即，通过以太坊自身的简洁欺诈证明来确保和执行 L2 虚拟机状态更新的安全性。
+在 Arbitrum Classic 中，我们通过定制的虚拟机（AVM）实现这一目标，而 Arbitrum 的 L2 状态机实现（称为“ArbOS”）则是一个编译后上传到 AVM 的程序，具备模拟 EVM 执行能力的功能。
+在 Nitro 中，我们采用 WebAssembly (Wasm) 替代 AVM 执行低级指令。由于 Go 代码可以编译为 Wasm，因此我们能够使用 Go 实现 ArbOS，并将 Geth（最广泛使用的以太坊实现）作为子模块嵌入其中。这一架构（直接使用 Geth 的 EVM 实现）是 Nitro 的核心特征，也是 Nitro 升级的关键。
+
 <!-- Content_END -->
