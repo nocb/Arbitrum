@@ -86,4 +86,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[非官方欺诈证明](https://www.theblockbeats.info/news/26507)
 
+### 2024.12.16
+
+阅读文档[Nitro vs. Classic](https://docs.arbitrum.io/how-arbitrum-works/why-nitro)
+
 <!-- Content_END -->

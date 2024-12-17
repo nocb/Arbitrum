@@ -86,4 +86,12 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.15
 
 1. 简单了解下 Arbitrum 生态 [Messari：深度分析 Arbitrum 的繁荣生态](https://www.theblockbeats.info/news/35982)
+
+### 2024.12.16
+
+1. 阅读 $ARB 代币概述文章  https://docs.arbitrum.foundation/concepts/arb-token
+
+### 2024.12.17
+
+1. 全览 Arbitrum 上百个生态项目 http://www.yuanli24.com/news/11836 生态庞大
 <!-- Content_END -->
