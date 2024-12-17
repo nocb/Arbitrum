@@ -161,6 +161,15 @@ Your Chain, Your Rules
 
 ### 2024.12.17
 
+#### Arbitrum生态
+
+- DEX ：Camelot
+- 贷款： Radiant、Aave V3
+- 永续合约：GMX
+- 期权： Dopex   
+- 资格认证 - Odyssey
+- 游戏： Treasure
+
 ### 2024.12.18
 
 ### 2024.12.19
