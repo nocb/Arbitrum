@@ -94,4 +94,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.17
 
 1. 全览 Arbitrum 上百个生态项目 http://www.yuanli24.com/news/11836 生态庞大
+
+### 2024.12.18
+
+1. 代币流通供应量 https://docs.arbitrum.foundation/token-supply
 <!-- Content_END -->
