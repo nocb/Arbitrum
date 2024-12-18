@@ -130,7 +130,7 @@ Nitro 代表了 Arbitrum 技术发展的最新一步；它是首次在主网 Arb
 
 ### 2024.12.18
 
-
+Stylus 是 Arbitrum 开发的支持多语言构建应用程序的开源 SDK 。这是一种实现 EVM+ 兼容性的产品。简言之，开发人员在 Arbitrum 上既能使用传统 Solidity 语言，又能使用 WASM 兼容的语言，如 Rust、C 和 C++ 等来构建应用程序。此外，Stylus 使 Dapps 的执行更加高效，显著地降低了 gas 成本。Stylus 不局限于支持 Rust、C 和 C++, 例如 Move、Sway、Cairo 和 Go 等。试想下，以后 Aptos/ Fuel/ StarkNet 上的 dApps 能一键迁移至 Arbitrum 上。甚至可以通过 Arbitrum Orbit 实现一键 L3 链的链改。更有趣的是，BOLD、Stylus 都是通用的模块化组件；开发者基于 Arbitrum Orbit 启动特定用例的 L3，可以原生集成 BOLD、Stylus；也可以通过去中心化 DAO 治理的形式，在 L3 启动并平稳运行后再投票决定集成上述模块化组件。
 
 ### 2024.12.18
 
