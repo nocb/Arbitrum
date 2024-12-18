@@ -285,5 +285,16 @@ Nitro 如何处理事务
 应用生态系统
 ![image](https://github.com/user-attachments/assets/dfa322ce-aca1-44b8-b168-8221cbcdc2c0)
 
+### 2024.12.18
+
+**Arbitrum 生态汇总**
+
+经不完全统计，Arbitrum 生态门户共列出了 170 多个项目，在重新优化分类之后，我们发现 Arbitrum One 主网上线半年后，Arbitrum 已日渐成型，目前，从参与入口来看，支持出入金、钱包、交易所以及桥和跨链项目就有 60 来个；统计的近 40 多个 DeFi 应用主要分布在衍生品、AMM 和收益优化方面；另外，NFT 方面，3 个 NFT 市场中 TreasureDAO 占据主导角色，TreasureDAO 旗下元宇宙游戏 Bridgeworld 内的 NFT 系列热度偏高，其他 NFT 项目大多数缺乏持久热度；另外还有 30 来个支持 Arbitrum 的工具、基础设施以及节点提供方。
+
+纳入 The Arbitrum Odyssey 生态采用计划的 56 个项目中，在经过社区投票后，Yield Protocol、Hashflow、Aboard Exchange、tofuNFT、Uniswap、ApeX、1inch、Yin Finance、DODO、Swap…
+
+Arbitrum Orbit 允许无需许可地构建自己的专用链。每个 Orbit 链都可以配置为使用 Rollup 或 AnyTrust，自定义设置吞吐量、隐私、Gas 代币、治理、协议逻辑、独立产品路线图，同时受益于 Stylus 引入的相同 EVM+ 兼容性，也允许用 Solidity、C、C++ 和 Rust 部署与 EVM 兼容的智能合约。
+
+
 
 <!-- Content_END -->
