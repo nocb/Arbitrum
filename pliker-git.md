@@ -94,4 +94,12 @@ timezone: Asia/Shanghai
 4.ArbitrumDAO还有安全理事会，
 安全理事会是一个由12 名成员组成的委员会，他们都是多重签名钱包的签名者，有权执行 ArbitrumDAO 和 Arbitrum 基金会授予的某些紧急行动和非紧急行动，并负责维护 ArbitrumDAO 宪法。
 ### 2024.12.17
+### 2024.12.18
+笔记内容
+1.Arbitrum DAO 还内置了一个安全机制，称为“安全委员会”。安全委员会是一组实体，负责确保 DAO 及其链的安全性和完整性。根据《宪法》规定，委员会可以绕过缓慢的投票程序，在出现安全紧急情况时迅速采取行动。安全委员会成员由 DAO 通过半年选举产生。
+2.活跃地址数： 截至 2024 年 5 月，Arbitrum 的每日活跃地址数已超过 77.9 万个，位居所有 Layer 2 网络之首。
+3.Offchain Labs 是 Arbitrum 技术的创建者和核心开发者。它负责设计和实现 Arbitrum 的技术架构，包括 Arbitrum One 和 Arbitrum Nova。
+4.Offchain Labs 起初承担了绝大部分责任，但随着 ArbitrumDAO 的成立，网络治理逐步去中心化。
+5.ArbitrumDAO 负责治理和资源分配：通过社区投票决定生态发展的优先事项，确保网络的可持续性和公平性。
+### 2024.12.18
 <!-- Content_END -->
