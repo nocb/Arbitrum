@@ -172,6 +172,14 @@ Your Chain, Your Rules
 
 ### 2024.12.18
 
+####  上百个生态项目
+总体看上去 arb 的生态已经比较全，
+
+#### Orbit 生态
+one ：是op rollup L2
+nova： 基于anytrust 的游戏链 
+orbit：是L3  
+
 ### 2024.12.19
 
 ### 2024.12.20
