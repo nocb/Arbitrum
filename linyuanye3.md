@@ -46,4 +46,22 @@ $ARB 代币持有者可以参与 Arbitrum DAO 的治理，投票决定 Arbitrum 
 治理范围包括协议升级、资金分配、生态系统发展等。
 去中心化治理：
 $ARB 代币持有者可以通过链上投票表达意见，确保 Arbitrum 生态的去中心化和社区自治。
+
+### 2024.12.18
+（1）TVL（总锁定价值）
+TVL 增长：
+Arbitrum 的 TVL 在 DeFi 生态中排名前列，吸引了大量资金流入。
+截至 2023 年，Arbitrum 的 TVL 已达到 数十亿美元。
+主要协议：
+Uniswap、Aave、Curve 等主流 DeFi 协议已部署在 Arbitrum 上。
+（2）交易量
+交易活跃度：
+Arbitrum 的交易量持续增长，用户活跃度高。
+DEX 交易量：
+以 Uniswap 为代表的 DEX 在 Arbitrum 上的交易量显著增加。
+（3）用户增长
+用户数量：
+Arbitrum 的用户数量快速增长，吸引了大量 DeFi 用户和开发者。
+社区活跃度：
+Arbitrum 的社区活跃度高，Discord、Telegram 等平台用户参与度高。
 <!-- Content_END -->
