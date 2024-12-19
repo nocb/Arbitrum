@@ -184,6 +184,7 @@ orbit：是L3
 
 #### Constitution of the Arbitrum DAO 章程
 一些章程写在了合约里面，
+https://www.tuoluo.cn/article/detail-10106172.html   中文的说明
 
 #### DAO 治理工具 
 Tally  Snapshot 
