@@ -98,4 +98,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Inside Arbitrum Nitro](https://docs.arbitrum.io/how-arbitrum-works/inside-arbitrum-nitro)
 
+### 2024.12.19
+
+阅读文档[Arbitrum 的秘密武器：交互式欺诈证明](https://www.theblockbeats.info/news/26507)
+
 <!-- Content_END -->
