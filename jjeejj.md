@@ -98,4 +98,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.18
 
 1. 代币流通供应量 https://docs.arbitrum.foundation/token-supply
+
+### 2024.12.19
+
+1. ARB 经济模型详解 https://foresightnews.pro/article/detail/28817
 <!-- Content_END -->
