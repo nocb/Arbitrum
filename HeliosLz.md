@@ -348,4 +348,54 @@ Arbitrum Orbit 支持自定义 Gas 代币，这使得每个 Orbit 链可以选�
 重要提示：
 * 每项符合条件的操作最多可获得 1 分，积分上限为 15 分。
 * 在 Arbitrum Nitro 于 2022 年 8 月 31 日上线之前（区块高度 #22207817）获得的积分（至少 3 分）将计为双倍。
+
+当前流通供应量（截至 2024 年 3 月 7 日）：
+总流通量：约 15.37 亿枚 $ARB
+具体分配：
+* Arbitrum DAO 国库：1.26 亿枚
+* 平台用户（通过空投）：10.93 亿枚
+* Arbitrum 基金会：2.06 亿枚
+* 在 Arbitrum 上构建应用的 DAO：1.13 亿枚
+
+![image](https://github.com/user-attachments/assets/9ca419fe-6d28-48b3-a6f2-96dc03e5d6cc)
+
+
+Arbitrum 对其生态系统中符合条件的 DAO 的初始 ARB 代币分配。
+主要接收 DAO 及其分配情况：
+* Treasure：800 万枚 ARB
+* SushiSwap：约 4,249,418 枚 ARB
+* Dopex：3,867,103 枚 ARB
+* Radiant Capital：3,348,026 枚 ARB
+* Balancer：3,090,486 枚 ARB
+
+后续行动主要发现：
+* 多数协议尚未动用空投代币：约 80% 的空投代币仍然保留在多重签名钱包中，未被使用。
+
+部分协议已制定代币使用计划：
+* Balancer：计划将 100 万枚 ARB 分批（每两周 10 万枚）奖励给活跃的流动性提供者，剩余的 200 万枚用于协议拥有的流动性（POL）。
+* Radiant Capital：已批准将 40% 的代币空投给新的 6 个月和 1 年期的 dLP 锁仓用户，30% 分配给所有 Arbitrum dLP 锁仓用户，剩余 30% 保留用于未来使用。
+* Stargate DAO：计划将 70% 的代币用于 Arbitrum 上的流动性挖矿激励，30% 分配给合作伙伴，以促进生态系统发展。
+
+个别协议直接出售空投代币：一些协议选择将收到的 ARB 代币出售，以获取运营资金。
+
+### $ARB 的估值方法
+
+市场估值采用以下两种方法进行分析：
+
+（1）完全稀释估值（Fully Diluted Valuation, FDV）
+* FDV = $ARB 的单价 × 总供应量。
+* 假设 $ARB 的初始交易价格为 1.5 美元：
+* FDV = 1.5 美元 × 100 亿 = 150 亿美元。
+
+这是市场对整个 Arbitrum 网络的长期估值。
+
+（2）流通市值（Circulating Market Cap）
+* 流通市值 = $ARB 的单价 × 流通供应量。
+* 假设初期流通供应量为 12.75 亿枚（11.62% 用户空投 + 1.13% DAO 空投部分 + 其他分配），单价为 1.5 美元：
+* 流通市值 = 1.5 美元 × 12.75 亿 = 19.125 亿美元。
+
+这反映了早期流通市场的实际估值，通常低于 FDV。
+
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/5e4769fa-4356-40c2-a515-83d3f2ccbf47" />
+
 <!-- Content_END -->
