@@ -348,6 +348,8 @@ Nitro 的第二个关键设计思想是“以 geth 为核心”。这里的“ge
 Arbitrum 的旧方案方案是通过定制的 Arbitrum 虚拟机（ AVM ）来模拟 EVM，它的一些内部逻辑在 EVM 不一致（例如 Gas 的计算）。 而 Geth 则基本完全支持以太坊的数据结构、格式和虚拟机，所以可以实现以太坊高度兼容
 
 #### 将执行与证明分开
+![image](https://github.com/user-attachments/assets/50e007f2-bffa-4157-9c1e-0d70cd4e6bc5)
+
 设计实用的 Rollup 系统的挑战之一是希望系统在普通执行中表现良好与能够可靠地证明执行结果之间的紧张关系。 Nitro 通过使用相同的源代码来执行和证明，但针对两种情况将其编译为不同的目标，从而解决了这种紧张关系。
 
 在编译执行Nitro节点软件时，使用普通的Go编译器，生成目标架构的本机代码，当然对于不同的节点部署，它会有所不同。 （节点软件以源代码形式分发，并作为包含已编译二进制文件的 Docker 映像进行分发。）
@@ -485,4 +487,83 @@ Nitro 链的安全性依赖于一个假设：当一个验证者创建一个 RBlo
 
 - L2 gas：执行 Nitro 链上的交易所需的 Ethereum 等效 gas。
 - L1 calldata：与交易相关的 L1 calldata 费用，仅当交易通过排序器（Sequencer）提交时才会收取，用于覆盖排序器的费用。
+
+### 2024.12.19
+### Arbitrum Nova
+Arbitrum Nova 是 Arbitrum 生态系统中另一种 Layer 2 解决方案，Arbitrum Nova 与 Arbitrum One 服务于不同的需求和场景。
+
+![image](https://github.com/user-attachments/assets/8888f62b-701e-454a-a97f-7f46ef41b147)
+
+Arbitrum One 和 Arbitrum Nova 底层都使用 nitro 技术，但 Arbitrum One 使用普通模式，Arbitrum Nova 使用 anytrust 模式。与 Arbitrum One 采用 Rollup 技术不同的是，Arbitrum Nova 利用 AnyTrust 技术（下一节会详细讲解），这个技术的核心在于创建了一个被信任的小组，叫做数据可用性委员会（下一节会详细讲解），因为有这个小组帮助我们记录交易数据，我们牺牲了一定程度的去中心化，但换取了性能的提升，非常适合游戏、社交媒体和轻量级金融应用等对速度和成本敏感的场景。
+
+### 内部AnyTrust
+AnyTrust 是一种 Arbitrum Nitro 技术的变种，它通过接受一定程度的信任假设来降低成本。
+
+Arbitrum 协议要求所有 Arbitrum 节点，包括验证者（即验证链正确性并准备对正确结果进行担保的节点），都必须访问 Arbitrum 链的所有 L2 交易数据，并将其发布到以太坊 L1 作为 calldata。用于支付以太坊 gas 的费用是 Arbitrum 的最大成本组成部分。
+
+而 AnyTrust 则依赖于外部的 **数据可用性委员会**（以下简称“委员会”）来存储数据并按需提供。这意味着 AnyTrust 假设委员会中的至少两个成员是诚实的。也就是说，如果委员会中的 N - 1 名成员承诺提供某些数据，则至少有一名诚实的成员会提供数据来确保链能正常运行。
+
+#### 密钥集 (Keysets)
+一个密钥集指定了委员会成员的公钥，以及有效的数据可用性证书需要的签名数量。密钥集使得委员会成员的更换成为可能，并允许他们更改公钥。
+
+一个密钥集包含：
+
+- 委员会成员数量
+- 每个委员会成员的 BLS 公钥
+- 需要多少个委员会成员的签名才有效
+- 密钥集通过其哈希值进行标识。
+
+L1 KeysetManager 合约维护着当前有效的密钥集列表。L2 链的拥有者可以添加或删除这些密钥集。当一个密钥集变得有效时，KeysetManager 合约会发出一个包含密钥集哈希及其完整内容的以太坊事件，这样任何人都可以根据密钥集哈希值恢复密钥集内容。
+
+尽管 API 并未限制可以同时有效的密钥集数量，但通常情况下只有一个密钥集会被设为有效。
+
+#### 数据可用性证书 (DACert)
+![image](https://github.com/user-attachments/assets/3738e2d0-5e74-40c3-bb65-e7eccf9001cf)
+
+AnyTrust 的核心概念是 **数据可用性证书**（DACert）。一个 DACert 包含：
+
+- 一个数据块的哈希
+- 一个过期时间
+- 证明有 N-1 个委员会成员签署了（哈希，过期时间）对的证据，包括：
+  - 用于签名的密钥集哈希
+  - 一个位图，显示哪些委员会成员签署了
+  - 一个 BLS 聚合签名（基于 BLS12-381 曲线），证明这些签名成员进行了签名
+由于采用了 2-对-N 的信任假设，DACert 证明至少有一个诚实的委员会成员在过期时间之前会提供数据。
+
+在普通的（非 AnyTrust）Nitro 中，Arbitrum 的 Sequencer 会将数据块作为 calldata 发布到 L1 链上。数据块的哈希会被 L1 Inbox 合约提交，确保 L2 代码能够可靠地读取这些数据。
+
+而 AnyTrust 给了 Sequencer 两种发布数据块到 L1 的方式：它可以像普通 Nitro 一样发布完整数据，也可以发布证明数据可用性的 DACert。L1 Inbox 合约会拒绝任何使用无效密钥集的 DACert；DACert 的其他有效性检查由 L2 代码进行。
+
+L2 代码读取 Inbox 中的数据时，如果看到的是完整数据块，就像普通 Nitro 一样进行读取；如果看到的是 DACert，它会检查 DACert 的有效性，参考其中的密钥集（该密钥集会被 L1 Inbox 验证过）。L2 代码会验证：
+
+- 签署者的数量是否至少满足密钥集要求的数量
+- 聚合签名是否对已声明的签署者有效
+- 过期时间是否至少比当前 L2 时间戳晚两周
+如果 DACert 无效，L2 代码会丢弃该 DACert 并跳过；如果 DACert 有效，L2 代码将读取数据块，并确保数据是可用的。
+
+#### 数据可用性服务器 (DAS)
+![image](https://github.com/user-attachments/assets/9065e0b3-572a-4928-a1fc-b6064fdfbcb6)
+委员会成员运行数据可用性服务器（DAS）软件。DAS 提供两个 API：
+
+- **Sequencer API**：该 API 仅供 Arbitrum 链的 Sequencer 使用，它是一个 JSON-RPC 接口，允许 Sequencer 将数据块提交到 DAS 存储。通常部署会限制其他调用者访问该 API。
+
+- **REST API**：这是一个面向全体用户的 RESTful HTTP(S) 协议，允许根据哈希获取数据块。此 API 是完全可缓存的，部署可以使用缓存代理或 CDN 来增加扩展性，并防止 DoS 攻击。
+
+只有委员会成员有理由支持 Sequencer API。我们希望其他人能运行 REST API，这会有很大的帮助。
+
+DAS 软件根据配置选项可以将数据存储在本地文件中、Badger 数据库中、Amazon S3 上，或者在多个后端存储中冗余存储。该软件还支持可选的内存缓存（使用 Bigcache）或 Redis 实例。
+
+#### Sequencer 与委员会的交互
+![image](https://github.com/user-attachments/assets/b3a48664-7b87-4383-98b2-d8afa48c7185)
+当 Arbitrum Sequencer 生成一个数据批次，并希望使用委员会发布时，它会将数据和过期时间（通常是三周后）通过 RPC 同时发送给所有委员会成员。每个委员会成员将数据存储在其后端存储中，并通过 BLS 密钥对（哈希，过期时间）对进行签名，然后将签名与成功指示一起返回给 Sequencer。
+
+一旦 Sequencer 收集到足够的签名，它就可以聚合这些签名并生成有效的 DACert。然后，Sequencer 将该 DACert 发布到 L1 Inbox 合约，使其可供 AnyTrust 链的 L2 软件使用。
+
+如果 Sequencer 未能在几分钟内收集到足够的签名，它将放弃使用委员会，并通过“回退到 Rollup”方式，直接将完整数据发布到 L1 链上，这就像在非 AnyTrust 链中一样。L2 软件能够理解两种数据发布格式（DACert 或完整数据），并会正确处理每一种格式。
+
+### One/Nitro跟Nova的核心区别
+
+One 将完整的数据以 Calldata 的形式发布到以太坊主网，由于 Calldata 占用了一定的主网区块空间，此操作支付的 gas 费是 One 成本最大的组成部分。
+
+Nova 提供了 2 种数据发布方式，一种是像 One 一样以 Calldata 的形式发布完整数据，另一种是发布 DACert 证明数据的可用性。 Nova 的排序器将完整的数据同时发送给所有 DAC（数据可用性委员会）成员，委员会签名后把带有签名的证明返回给排序器，排序器收集到足够多的证明就能将它们聚合并创建有效的数据可用性证明（ DACert ），然后把 DACert 发布到主网。 如果排序器没有收集到足够多的证明，Nova 会回退到 One 模式（以 Calldata 形式发布完整数据到主网）。
 <!-- Content_END -->
