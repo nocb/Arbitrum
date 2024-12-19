@@ -214,16 +214,9 @@ Nitro 是 One 的技术栈升级，并不是独立于 One 的网络，Nitro 升�
 One/Nitro 跟 Nova 的区别：最核心的不同点是数据可用性，One 的数据可用性在链上（以太坊主网），Nova 的数据可用性在链下（数据可用性委员会 DAC）。  
 Rollup 的本质是执行层的分离，把复杂运算转移到链下执行。
 One 将完整的数据集以 Calldata 的形式发布到以太坊主网，由于 Calldata 占用了一定的主网区块空间，此操作支付的 gas 费是 One 成本最大的组成部分。
-
-![image](https://github.com/user-attachments/assets/79c9d8c3-ac64-4d08-832e-a43befa18b95)
  Nova 提供了 2 种数据发布方式，一种是像 Nitro 一样以 Calldata 的形式发布完整数据，另一种是发布 DACert 证明数据的可用性。  
-
  Nova 的定序器将完整的数据集同时发送给所有 DAC 的委员会成员，委员会签名后把带有签名的证明返回给定序器，定序器收集到足够多的证明就能将它们聚合并创建有效的数据可用性证明（DACert），然后把 DACert 发布到主网。  
-
 如果定序器没有收集到足够多的证明，Nova 会回退到 Rollup 模式（以 Calldata 形式发布数据到主网）。  
-
 最简单的理解就是：One 把链下执行数据储存在以太坊主网，Nova 把数据存储在链下的数据可用性委员会。  
-
  相对于 One 而言，Nova 通过牺牲一定的安全性来提高性能，游戏社交类等需要高频交互的 Dapp 适合部署在 Nova 上。  
-
 <!-- Content_END -->
