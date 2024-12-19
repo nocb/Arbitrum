@@ -182,6 +182,28 @@ orbit：是L3
 
 ### 2024.12.19
 
+#### Constitution of the Arbitrum DAO 章程
+一些章程写在了合约里面，
+
+#### DAO 治理工具 
+Tally  Snapshot 
+ 
+#### 章程主要内容框架如下： 
+- AIP :
+- 管理的chains
+- DAO 的金库
+- Governed Chains：ARB 管理的链
+- Non Governed Chains
+- 能投票的token 
+
+#### 具体内容 
+- chain的归属权  
+	- 任何ArbitrumDAO批准的链，都必须与以太坊结算
+	- 一个AIP 授权一个链 
+- AIP 的流程 
+	- 1.Temperature Check ，在snapshot 上发布1周
+	- 2.正式AIP 及呼吁vote ，3天
+
 ### 2024.12.20
 
 ### 2024.12.21
