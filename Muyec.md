@@ -112,4 +112,7 @@ Nitro 代表了 Arbitrum 技术发展的重要一步，是 Arbitrum One 主网�
 在 Arbitrum Classic 中，我们通过定制的虚拟机（AVM）实现这一目标，而 Arbitrum 的 L2 状态机实现（称为“ArbOS”）则是一个编译后上传到 AVM 的程序，具备模拟 EVM 执行能力的功能。
 在 Nitro 中，我们采用 WebAssembly (Wasm) 替代 AVM 执行低级指令。由于 Go 代码可以编译为 Wasm，因此我们能够使用 Go 实现 ArbOS，并将 Geth（最广泛使用的以太坊实现）作为子模块嵌入其中。这一架构（直接使用 Geth 的 EVM 实现）是 Nitro 的核心特征，也是 Nitro 升级的关键。
 
+
+### 2024.12.18
+$ARB 代币:$ARB 代币是一种 ERC-20 治理代币，持有者可以通过它参与 Arbitrum DAO 的链上治理，决定 Arbitrum One 和 Arbitrum Nova 链的运行和升级。代币的投票权根据持有数量加权，更多代币意味着更大的投票影响力。$ARB 代币可以委托给他人使用，方便没有时间审查提案的成员参与治理。$ARB 的初始供应量为 100 亿枚，每年最多铸造 2% 的新币，铸币活动由 DAO 通过提案管理。通过 $ARB 代币，持有者可以民主地影响 Arbitrum 生态系统的未来。
 <!-- Content_END -->

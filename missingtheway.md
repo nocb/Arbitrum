@@ -143,4 +143,27 @@ Arbitrum One是典型的OPR，它部署在L1上的合约，并不主动验证提
 ## Any Trust Chain
 使用Any Trust Chain 可以显著的降低交易的手续费，其与Roll up 网络不同，它并没有采用和Roll up 一样的去中心化/无需信任/无需认证的安全措施，与Roll up 不同，它并没有把全部数据打包上传到L1网络上，它是一种链下的处理方案。当遇到问题时，其会转换为Roll up 模式，使用Any Trust Chain 时必须要有两个验证者保持为诚实的。对于那些需要非常高的交易吞吐量和并不需要严格去中心化的应用，Any Trust Chain 将是一个非常好的选择。
 在Arbitrum网络中，Arbitrum One 为 Roll up 网络，Arbitrum Nova 为 Any Trust Chain 网络。
+### 2024.12.18
+**Ethereum 的扩容策略主要分为以下几点：**
+
+- 分区扩容策略（sharding）：把Blockchain 分片分块，以增加主链上的交易吞吐量和速度，降低费用，但是，由于Roll up 的发明，以及其优秀的能力导致，分片策略并不能成为以太坊扩容的最优解。但是，其仍然对共识机制更简单起到了正面作用。
+- Layer 2 ：在主网的基础上引入了二层网络，二层网络多数采用Roll up机制，将二层网络中的数据打包发送到主网，这种将大量的交易处理放到链下的方式大大提升了交易吞吐量，交易速度，降低了GasFee。
+
+Roll up 的优点：
+
+- 大大降低了交易的手续费，提高了速度，吞吐量
+- 降低了主网的压力
+- 继承了与以太坊主网相同级别的安全措施
+
+Roll up 的缺点：
+
+- 由于Roll up 的节点可能不是完全去中心化的，其节点可能处在被某些独立组织，第三方组织，或像ETH主网一样的组织中的控制当中，这当然有一定的安全性风险。不过通过validator,sequencer等机制可以保证交易的安全性。
+
+**Roll up 类型：**
+
+ZK Rollup , Optimistic Rollup 和 Arbitrum Rollup 的不同之处：
+
+- ZK Rollup 采用了Zero Knowledge 的方式进行验证，通过对状态进行验证，保证交易的正确性，零知识证明不需要知道具体的交易细节，只需要验证状态正确即为交易诚实。
+- Optimistic Rollup 采用了 Fraud Proof 以乐观的态度对待，提交到L1链上的数据，经过7天的验证期后可以完成提款。
+- Arbitrum Rollup 同样采用了 Fraud Proof，其与Optimistic Rollup 的核心区别是，Arbitrum Rollup 在争议产生的时候，Arbitrum Rollup 采用多步处理策略也就是 Challenge Manager ，会从区块开始一直分割，知道定位到一条WAVM的指令，与L1链上的 Rollup 进行对比验证。Optimistic Rollup 在产生争议时会进行整个交易的验证，更费时间。
 <!-- Content_END -->

@@ -154,7 +154,19 @@ Alice 执行 Bob 最初的操作，找到终点不同的那个子段。
 每个质押者必须在一周的限期内完成自己的任务，否则就会 “败诉”。
 多个纠纷可以同时解决，但是每个押注者一次最多只能参与一个纠纷。
 ### 2024.12.17
+- 通过阅读[Your chain,Your rules](https://medium.com/offchainlabs/your-chain-your-rules-offchain-labs-technical-roadmap-to-fuel-arbitrum-innovation-f787f2e85966) 了解他们对于arbi的开发计划，增强开发者体验styuls，增加去中心化排序器，互操作性和可扩展性，零知识证明，增加快速体现功能，允许选定orbit链在更短时间内提现，
+- arbitrum nova使用anytrust技术，转为游戏和社交应用设计，可以更快的响应和更好的tps。
 ### 2024.12.18
+- [Arbitrum TVL](https://defillama.com/chain/Arbitrum) 现在是3.257b
+- 跨链桥 (Bridges):
+1. Arbitrum Bridge: 这是官方的跨链桥，用于在以太坊主网和 Arbitrum 之间转移资产。
+2. Hop Protocol: 一个通用的跨链桥协议，支持在多个 Layer-2 网络之间快速转移代币，包括 Arbitrum。
+3. Multichain (原 Anyswap): 一个支持多条链的跨链桥，也支持 Arbitrum。
+4. Synapse Protocol: 另一个多链桥协议，提供跨链资产转移和交换功能。
+5. Celer cBridge: 一个高性能的跨链桥，专注于速度和低成本。
 ### 2024.12.19
+- $ARB 是一种 ERC-20 治理代币，允许其持有者参与 Arbitrum DAO 的链上治理协议。 $ARB 代币由一个位于 Arbitrum One（一个第 2 层 Arbitrum rollup 链）上的智能合约铸造。 Arbitrum DAO 负责管理宪法中定义的治理协议以及 DAO 治理的技术。
+- $ARB 的初始供应量为 100 亿。每年最多可以以其供应量的 2% 的速度铸造新的 $ARB，第一次铸造将于 2024 年 3 月 15 日开始。 $ARB 铸造活动由 DAO 通过宪法提案进行。
+- $ARB 代币是一种特殊用途的数字资产，赋予其持有者投票权，以影响 Arbitrum DAO 的运营和发展及其治理的技术。持有 $ARB 代币使您能够与其他价值观一致和激励一致的代币持有者一起民主地塑造 Arbitrum 生态系统的未来。
 ### 2024.12.20
 <!-- Content_END -->

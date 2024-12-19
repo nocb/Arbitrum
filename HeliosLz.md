@@ -285,5 +285,117 @@ Nitro 如何处理事务
 应用生态系统
 ![image](https://github.com/user-attachments/assets/dfa322ce-aca1-44b8-b168-8221cbcdc2c0)
 
+### 2024.12.18
+
+**Arbitrum 生态汇总**
+
+经不完全统计，Arbitrum 生态门户共列出了 170 多个项目，在重新优化分类之后，我们发现 Arbitrum One 主网上线半年后，Arbitrum 已日渐成型，目前，从参与入口来看，支持出入金、钱包、交易所以及桥和跨链项目就有 60 来个；统计的近 40 多个 DeFi 应用主要分布在衍生品、AMM 和收益优化方面；另外，NFT 方面，3 个 NFT 市场中 TreasureDAO 占据主导角色，TreasureDAO 旗下元宇宙游戏 Bridgeworld 内的 NFT 系列热度偏高，其他 NFT 项目大多数缺乏持久热度；另外还有 30 来个支持 Arbitrum 的工具、基础设施以及节点提供方。
+
+纳入 The Arbitrum Odyssey 生态采用计划的 56 个项目中，在经过社区投票后，Yield Protocol、Hashflow、Aboard Exchange、tofuNFT、Uniswap、ApeX、1inch、Yin Finance、DODO、Swap…
+
+Arbitrum Orbit 允许无需许可地构建自己的专用链。每个 Orbit 链都可以配置为使用 Rollup 或 AnyTrust，自定义设置吞吐量、隐私、Gas 代币、治理、协议逻辑、独立产品路线图，同时受益于 Stylus 引入的相同 EVM+ 兼容性，也允许用 Solidity、C、C++ 和 Rust 部署与 EVM 兼容的智能合约。
+
+**$ARB 代币：**
+$ARB 代币在 Arbitrum 网络的去中心化治理和生态系统中扮演着核心角色。以下是其主要功能概述：
+1. 治理代币
+2. 激励机制
+3. 安全性与质押
+4. 费用模型
+5. 生态系统扩展
+
+
+$ARB 代币创新点：支持多种安全模型，尤其是 Arbitrum Orbit 的多样化选择（Rollup 或 AnyTrust）。这些模型不仅为开发者提供了灵活的选择，还可以根据项目的不同需求调整安全性和交易成本。
+
+Arbitrum Orbit 支持自定义 Gas 代币，这使得每个 Orbit 链可以选择特定的 ERC-20 代币作为交易费用，而不是依赖于固定的原生代币。
+
+### 2024.12.19
+
+代币分配概览：
+* Arbitrum DAO 国库：35.28%（35.28 亿枚）
+* 团队、贡献者和顾问：26.94%（26.94 亿枚）
+* 投资者：17.53%（17.53 亿枚）
+* Arbitrum 平台用户（通过空投分配）：11.62%（11.62 亿枚）
+* Arbitrum 基金会：7.5%（7.5 亿枚）
+* 在 Arbitrum 上构建应用的 DAO（通过空投分配）：1.13%（1.13 亿枚）
+
+积分获取方式：
+1. 在 Arbitrum One 上的活动：
+桥接资金到 Arbitrum One：1 分
+在不同月份进行交易：
+* 2 个月：1 分
+* 6 个月：1 分
+* 9 个月：1 分
+
+交易次数或与智能合约交互数量：
+* 超过 4 次：1 分
+* 超过 10 次：1 分
+* 超过 25 次：1 分
+* 超过 100 次：1 分
+
+交易总价值：
+* 超过 $10,000：1 分
+* 超过 $50,000：1 分
+* 超过 $250,000：1 分
+
+桥接资产总价值：
+* 超过 $10,000：1 分
+* 超过 $50,000：1 分
+* 超过 $250,000：1 分
+
+2. 在 Arbitrum Nova 上的活动：
+* 活动可增加至多 1 分，或在 Arbitrum One 上已获得 4 分或以上的情况下，再增加 1 分。
+
+重要提示：
+* 每项符合条件的操作最多可获得 1 分，积分上限为 15 分。
+* 在 Arbitrum Nitro 于 2022 年 8 月 31 日上线之前（区块高度 #22207817）获得的积分（至少 3 分）将计为双倍。
+
+当前流通供应量（截至 2024 年 3 月 7 日）：
+总流通量：约 15.37 亿枚 $ARB
+具体分配：
+* Arbitrum DAO 国库：1.26 亿枚
+* 平台用户（通过空投）：10.93 亿枚
+* Arbitrum 基金会：2.06 亿枚
+* 在 Arbitrum 上构建应用的 DAO：1.13 亿枚
+
+![image](https://github.com/user-attachments/assets/9ca419fe-6d28-48b3-a6f2-96dc03e5d6cc)
+
+
+Arbitrum 对其生态系统中符合条件的 DAO 的初始 ARB 代币分配。
+主要接收 DAO 及其分配情况：
+* Treasure：800 万枚 ARB
+* SushiSwap：约 4,249,418 枚 ARB
+* Dopex：3,867,103 枚 ARB
+* Radiant Capital：3,348,026 枚 ARB
+* Balancer：3,090,486 枚 ARB
+
+后续行动主要发现：
+* 多数协议尚未动用空投代币：约 80% 的空投代币仍然保留在多重签名钱包中，未被使用。
+
+部分协议已制定代币使用计划：
+* Balancer：计划将 100 万枚 ARB 分批（每两周 10 万枚）奖励给活跃的流动性提供者，剩余的 200 万枚用于协议拥有的流动性（POL）。
+* Radiant Capital：已批准将 40% 的代币空投给新的 6 个月和 1 年期的 dLP 锁仓用户，30% 分配给所有 Arbitrum dLP 锁仓用户，剩余 30% 保留用于未来使用。
+* Stargate DAO：计划将 70% 的代币用于 Arbitrum 上的流动性挖矿激励，30% 分配给合作伙伴，以促进生态系统发展。
+
+个别协议直接出售空投代币：一些协议选择将收到的 ARB 代币出售，以获取运营资金。
+
+### $ARB 的估值方法
+
+市场估值采用以下两种方法进行分析：
+
+（1）完全稀释估值（Fully Diluted Valuation, FDV）
+* FDV = $ARB 的单价 × 总供应量。
+* 假设 $ARB 的初始交易价格为 1.5 美元：
+* FDV = 1.5 美元 × 100 亿 = 150 亿美元。
+
+这是市场对整个 Arbitrum 网络的长期估值。
+
+（2）流通市值（Circulating Market Cap）
+* 流通市值 = $ARB 的单价 × 流通供应量。
+* 假设初期流通供应量为 12.75 亿枚（11.62% 用户空投 + 1.13% DAO 空投部分 + 其他分配），单价为 1.5 美元：
+* 流通市值 = 1.5 美元 × 12.75 亿 = 19.125 亿美元。
+
+这反映了早期流通市场的实际估值，通常低于 FDV。
+
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/5e4769fa-4356-40c2-a515-83d3f2ccbf47" />
 
 <!-- Content_END -->
