@@ -398,4 +398,15 @@ Arbitrum 对其生态系统中符合条件的 DAO 的初始 ARB 代币分配。
 
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/5e4769fa-4356-40c2-a515-83d3f2ccbf47" />
 
+
+### 2024.12.20
+
+《Arbitrum DAO 修订宪章》详细规定了 ArbitrumDAO 的治理框架、决策流程以及各参与方的职责。以下是该宪章的关键要点：
+1. 链的“所有权”
+2. DAO 提案和投票程序
+3. 安全委员会
+4. 宪章的修订
+5. 定义和术语
+
+
 <!-- Content_END -->
