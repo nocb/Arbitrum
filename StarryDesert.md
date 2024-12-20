@@ -338,4 +338,32 @@ Arbitrum 上的 DeFi 应用包括：
 - 借贷/算法稳定币：Aave、dForce、Hundred Finance、Abracadabra 等
 - 流动性服务/收益优化/固定利率：Yearn Finance、Beefy Finance、xToken、Pickle Finance 等
 
+
+
+### 2024.12.20
+
+笔记内容
+
+#### $ARB代币概述
+
+`ARB`是一种基于ERC−20标准的治理代币，允许持有者参与**ArbitrumDAO**的链上治理协议。ARB代币由一个智能合约在**ArbitrumOne**上铸造，**ArbitrumOne**是一个Layer2的Arbitrumrollup链。
+
+#### ArbitrumDAO的职责
+
+**ArbitrumDAO**负责管理治理协议（根据宪法定义）和DAO治理的技术。这包括**ArbitrumOne**和**ArbitrumNova**链及其底层协议。
+
+#### 持有$ARB代币的投票权
+
+如果你拥有$`ARB`代币，你可以对影响ArbitrumOne和ArbitrumNova链运行和发展的治理提案进行投票。这包括链升级提案以及如何使用DAO国库中的资金的提案。
+
+投票时，你使用`ARB`代币来表明你的支持或反对。你拥有的`ARB`代币越多，你的投票影响力就越大。这是因为**ArbitrumDAO**的智能合约实现了基于代币权重的投票，即投票的权力由投票者钱包中的代币数量决定。
+
+#### 代币委托
+
+`ARB`代币可以委托给其他钱包。这意味着你可以使用自己钱包中的`ARB`代币投票，也可以使用他人委托给你的$`ARB`代币投票。委托对于那些没有时间定期审查和讨论DAO提案的成员来说非常有用。
+
+#### $ARB代币的供应和铸造
+
+`ARB`代币的初始供应量为100亿。每年最多可以以其供应量的2%`ARB`代币，首次铸造事件将在2024年3月15日之后进行。$`ARB`的铸造事件由DAO通过宪法提案执行。
+
 <!-- Content_END -->
