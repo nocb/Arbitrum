@@ -64,4 +64,24 @@ DEX 交易量：
 Arbitrum 的用户数量快速增长，吸引了大量 DeFi 用户和开发者。
 社区活跃度：
 Arbitrum 的社区活跃度高，Discord、Telegram 等平台用户参与度高。
+
+### 2024.12.19
+Arbitrum 生态系统概览
+（1）DeFi（去中心化金融）
+借贷协议：
+Aave、Compound 等借贷协议已部署在 Arbitrum 上，提供低成本的借贷服务。
+DEX（去中心化交易所）：
+Uniswap、Sushiswap 等 DEX 在 Arbitrum 上提供高效的资产交易服务。
+衍生品：
+GMX、dYdX 等衍生品平台在 Arbitrum 上提供杠杆交易和期货交易。
+（2）NFT（非同质化代币）
+NFT 市场：
+OpenSea、Rarible 等 NFT 市场已支持 Arbitrum，推动 NFT 生态发展。
+NFT 游戏：
+Arbitrum 吸引了多款区块链游戏，提供低成本的游戏体验。
+（3）DAO（去中心化自治组织）
+Arbitrum DAO：
+Arbitrum 是一个去中心化自治组织（DAO），由 $ARB 代币持有者共同治理。
+治理工具：
+提供多种支持 DAO 的工具和平台，帮助社区更好地参与治理。
 <!-- Content_END -->
