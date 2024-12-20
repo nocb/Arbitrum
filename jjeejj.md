@@ -102,4 +102,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.19
 
 1. ARB 经济模型详解 https://foresightnews.pro/article/detail/28817
+
+### 2024.12.20
+
+1. DAO 术语表 https://docs.arbitrum.foundation/dao-glossary
 <!-- Content_END -->
