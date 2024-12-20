@@ -112,7 +112,7 @@ Rollup 的安全性依赖于主链，其链下计算结果会通过特定的机�
           3.安全性与灵活性
           Nova 依然继承了以太坊的核心安全性，但通过数据可用性委员会减少了存储成本，提供了性能与安全的平衡。
 最终升级结果：Arbitrum Nova 成功吸引了对成本敏感的高频交易类应用，例如 Reddit 将其社区积分系统（Community Points）部署在 Arbitrum Nova 上。Nova 为 Layer 2 扩展方案引入了新的选择：不同应用可以根据性能和成本需求选择合适的链。
-### 2024.12.19
+### 2024.12.20
 笔记内容：扩展性优化：从 Layer 2 到 Layer 3目标：持续提升网络性能，同时保持以太坊的安全性。  
 1.Layer 2：Optimistic Rollup 技术1.Arbitrum 以 Optimistic Rollup 为核心，通过链下执行和链上数据存储的方式扩展以太坊网络。2.利用交互式欺诈证明机制确保链下执行的交易正确性。  
 2.Layer 3：Arbitrum Orbit  
