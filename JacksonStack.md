@@ -222,7 +222,7 @@ One 将完整的数据集以 Calldata 的形式发布到以太坊主网，由于
 
 ### 2024.12.20
 **Your Chain, Your Rules**  
-核心理念：“Your Chain, Your Rules”：强调用户和开发者对区块链的控制权和自我治理能力。
+核心理念：“Your Chain, Your Rules”：强调用户和开发者对区块链的控制权和自我治理能力。  
 技术路线图：
 - DevEx, UX, and Adoption 
   - Stylus：允许使用 WASM 语言（如 Rust、C 和 C++）开发，超越了以太坊上构建的限制，支持 EVM 并降低 Gas 费用。
