@@ -564,4 +564,54 @@ Arbitrum的社区价值观强调以下几个核心原则：
 
 轻节点（只保存 Header）向全节点（Header、Body 都存）请求，拿到证明路径上另一半的交易的 Hash 值，然后层层计算，将最终结果与根 Hash 值比对，如果相等，则证明交易有效
 
+### 2024.12.21
+
+#### Bit Coin-协议
+
+双花攻击（double spending attack）：同一个币，花两次
+
+
+
+有两种 Hash 指针，一种是指向前一个区块，形成区块链
+
+一种是指向交易的来源（防止双花攻击、证明交易的合法性）
+
+
+
+一个交易，分输入和输出两部分
+
+输入部分：指向交易的 Hash 指针，付款人的公钥
+
+输出部分：收款人的公钥
+
+
+
+Block Header 组成部分：
+
+1. version 协议版本
+2. hash of pervious block header 前一个区块块头的 hash 值
+3. mercle root hash 默克尔树的根 Hash 值
+4. target 挖矿难度阈值
+5. nonce 随机数
+
+
+
+Block Body 组成部分：
+
+1. transaction list 交易列表
+
+
+
+共识协议
+
+以算力来进行投票
+
+
+
+组装候选区块，找到满足要求的 nonce 值，就代表该区块获得 BitCoin 的记账权，有记账权的区块才有权力发布下一个区块
+
+
+
+交易必须在最长合法链上，才视为有效；临时分叉，会等待某一分叉胜出
+
 <!-- Content_END -->
