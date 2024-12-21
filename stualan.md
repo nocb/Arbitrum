@@ -172,7 +172,7 @@ Alice 执行 Bob 最初的操作，找到终点不同的那个子段。
 - 请假
 ### 2024.12.21
 - 学习[ARB代币治理](https://docs.arbitrum.foundation/concepts/arb-token)
-- $ARB 是一种 ERC-20 治理代币，允许其持有者参与 Arbitrum DAO 的链上治理协议。 $ARB 代币由一个位于 Arbitrum One（一个第 2 层 Arbitrum rollup 链）上的智能合约铸造。 Arbitrum DAO 负责管理宪法中定义的治理协议以及 DAO 治理的技术。
+- $ARB 是一种 ERC-20 治理代币，允许其持有者参与 Arbitrum DAO 的链上治理协议。 $ARB 代币由一个位于 Arbitrum One（一个第 2 层 Arbitrum rollup 链）上的智能合约铸造。 Arbitrum DAO 负责管理宪法中定义的治理协议以及 DAO 治理的技术。$ARB 的初始供应量为 100 亿。
 ### 2024.12.22
 ### 2024.12.23
 ### 2024.12.24
