@@ -106,4 +106,11 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.20
 
 1. DAO 术语表 https://docs.arbitrum.foundation/dao-glossary
+
+### 2024.12.21
+
+1. DAO 治理案例分析 https://foresightnews.pro/article/detail/45035
+   1. 做好项目
+   2. 积极参与生态中的活动
+   3. TVL 仍是一个非常重要的指标
 <!-- Content_END -->
