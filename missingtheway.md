@@ -166,4 +166,33 @@ ZK Rollup , Optimistic Rollup 和 Arbitrum Rollup 的不同之处：
 - ZK Rollup 采用了Zero Knowledge 的方式进行验证，通过对状态进行验证，保证交易的正确性，零知识证明不需要知道具体的交易细节，只需要验证状态正确即为交易诚实。
 - Optimistic Rollup 采用了 Fraud Proof 以乐观的态度对待，提交到L1链上的数据，经过7天的验证期后可以完成提款。
 - Arbitrum Rollup 同样采用了 Fraud Proof，其与Optimistic Rollup 的核心区别是，Arbitrum Rollup 在争议产生的时候，Arbitrum Rollup 采用多步处理策略也就是 Challenge Manager ，会从区块开始一直分割，知道定位到一条WAVM的指令，与L1链上的 Rollup 进行对比验证。Optimistic Rollup 在产生争议时会进行整个交易的验证，更费时间。
+### 2024.12.20
+## Arbitrum 技术路线图
+
+> Arbitrum 是由 Offchain Labs 发布的L2链，Offchain Labs 始终坚持一个规则进行技术路线的规划：**Your Chain, Your Rules.** 使用Arbitrum技术允许用户及社区拥有构建自己链的能力，社区拥有自治的权利。
+> 
+
+首先Arbitrum 将会通过Stylus 方式适配使用不同语言来编译WASM ，例如 Rust ，C ，C# ，通过 Stylus 你可以高效执行代码并节省智能合约消耗的Gas费，使用Stylus你的计算资源和内存成本会大大降低。
+
+## 去中心化
+
+Arbitrum 在未来会逐步落实去中心化的实施将去中心化落到实处，比如实现如下功能：
+
+- ***BoLD* (H2 2024)**
+- ***Censorship Timeout* (H2 2024)**
+- ***Decentralized Sequencer* (likely 2025)**
+
+## 水平扩展
+
+- ***Fast Withdrawals (Q3 2024)***
+- Chain Cluster ***(2025)***
+
+## 性能和效率
+
+- ***Multi-client support* (H1 2025)**
+- ***Adaptive Pricing (H1 2025)***
+
+## 引入零知识证明
+
+- ***ZK+Optimistic Hybrid Proving***
 <!-- Content_END -->

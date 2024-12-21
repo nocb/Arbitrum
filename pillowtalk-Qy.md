@@ -144,7 +144,7 @@ Stylus 是 Arbitrum 开发的支持多语言构建应用程序的开源 SDK 。�
 
 ### 2024.12.20
 
-
+ Arbitrum Nitro 是为所有基于 Arbitrum 的链提供支持的节点软件，并基于Geth构建，Geth 是 L1 以太坊执行规范的 Golang 实现。自Arbitrum Nitro 于 2022 年 8 月 31 日首次亮相以来，许多新的执行层 (EL) 客户端实现已经启动或显着改进 - 所有这些都具有不同且独特的价值主张和优化目标。随着这些替代客户端的稳定性和质量的提高，Offchain Labs 一直致力于准备 Arbitrum 堆栈以支持替代客户端。
 
 ### 2024.12.20
 <!-- Content_END -->
