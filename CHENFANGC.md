@@ -102,4 +102,9 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Arbitrum 的秘密武器：交互式欺诈证明](https://www.theblockbeats.info/news/26507)
 
+### 2024.12.21
+
+阅读文档[Arbitrum 创新的技术路线图](https://medium.com/offchainlabs/your-chain-your-rules-offchain-labs-technical-roadmap-to-fuel-arbitrum-innovation-f787f2e85966)
+阅读文档[深度分析 Arbitrum 的繁荣生态](https://www.theblockbeats.info/news/35982)
+
 <!-- Content_END -->
