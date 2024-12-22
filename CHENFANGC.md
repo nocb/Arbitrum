@@ -105,6 +105,13 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 ### 2024.12.21
 
 阅读文档[Arbitrum 创新的技术路线图](https://medium.com/offchainlabs/your-chain-your-rules-offchain-labs-technical-roadmap-to-fuel-arbitrum-innovation-f787f2e85966)
+
 阅读文档[深度分析 Arbitrum 的繁荣生态](https://www.theblockbeats.info/news/35982)
+
+### 2024.12.22
+
+阅读文档[全览 Arbitrum 上百个生态项目：跨链、DeFi、基础设施、NFT](http://www.yuanli24.com/news/11836)
+
+阅读文档[Arbitrum Orbit 生态探索：18 条 Orbit 链，加速以太坊生态多链时代](https://www.techflowpost.com/article/detail_15657.html)
 
 <!-- Content_END -->
