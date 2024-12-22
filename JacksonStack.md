@@ -241,4 +241,14 @@ One 将完整的数据集以 Calldata 的形式发布到以太坊主网，由于
 - 零知识证明：
   - ZK+Optimistic 混合证明：探索将 ZK 证明集成到 Arbitrum 链中，提供即时确认声明的可选快速路径。
 - 未来展望：Offchain Labs 致力于在问题出现之前创造解决方案，推动区块链技术的边界。
+
+### 2024.12.22
+**Arbitrum应用生态**  
+![image](https://github.com/user-attachments/assets/65fb4e9a-0d01-45a6-849a-2a6aa99bcc77)  
+Arbitrum 的应用程序生态系统可以分为两大类：DeFi 和消费者应用程序。在这些生态系统中构建的项目已经采用 Arbitrum 来获得粘性用户群和从以太坊继承的强大安全保证。  
+**Defi**  
+![image](https://github.com/user-attachments/assets/224abed4-770a-4b7b-971c-d4bfc777a4f9)
+DeFi 生态系统已经存在大量竞争，并以其 DEX、借贷和永续合约为基础。
+
+
 <!-- Content_END -->
