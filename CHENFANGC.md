@@ -114,4 +114,12 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Arbitrum Orbit 生态探索：18 条 Orbit 链，加速以太坊生态多链时代](https://www.techflowpost.com/article/detail_15657.html)
 
+### 2024.12.23
+
+阅读文档[$ARB 代币：概念概述](https://docs.arbitrum.foundation/concepts/arb-token)
+
+阅读文档[空投资格和分配规则](https://docs.arbitrum.foundation/airdrop-eligibility-distribution)
+
+阅读文档[代币流通供应量](https://docs.arbitrum.foundation/token-supply)
+
 <!-- Content_END -->
