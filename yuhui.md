@@ -142,4 +142,10 @@ Arbitrum 的技术路线图通过持续优化扩展性、数据可用性、开�
 这些创新确保了 Arbitrum 不仅满足当前区块链生态的扩展需求，还为未来 Web3 应用的广泛发展提供了坚实的基础。
 ### 2024.12.23
 笔记内容:今天学习Arbitrum的技术扩招
+NFT 市场：
+主要包括 Stratos、tofuNFT、TreasureDAO，其中 TreasureDAO 旗下元宇宙游戏 Bridgeworld 内的 NFT 系列热度偏高。
+工具/基础设施支持：
+包括 Band Protocol、Biconomy、BlockVision、Chainlink、Covalent、DefiLlama、Etherscan、Nansen、Snapshot、Tenderly、The Graph、Truffle Suite 等二十多个。
+节点提供方：
+包括 Alchemy、Ankr、DataHub、GetBlock、Infura、Moralis 和 QuickNode。
 <!-- Content_END -->
