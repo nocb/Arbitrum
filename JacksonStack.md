@@ -250,5 +250,22 @@ Arbitrum 的应用程序生态系统可以分为两大类：DeFi 和消费者应
 ![image](https://github.com/user-attachments/assets/224abed4-770a-4b7b-971c-d4bfc777a4f9)
 DeFi 生态系统已经存在大量竞争，并以其 DEX、借贷和永续合约为基础。
 
-
+### 2024.12.23  
+项目总数与分类：
+Arbitrum 生态门户共列出了 170 多个项目，涉及钱包、交易所、支付网关以及桥和跨链项目约 60 个；DeFi 应用近 40 多个，主要分布在衍生品、AMM 和收益优化方面；NFT 市场 3 个，其中 TreasureDAO 占据主导角色；支持 Arbitrum 的工具、基础设施以及节点提供方约 30 个。  
+The Arbitrum Odyssey 生态采用计划：  
+56 个项目参与生态采用计划，包括 Yield Protocol、Hashflow、Aboard Exchange、tofuNFT、Uniswap、ApeX、1inch、Yin Finance、DODO、Swapr、TreasureDAO、BattleFly、Ideamarket 和 SushiSwap 等，用户通过体验这些项目收集 NFT 以获得最终设计的 arbi-verse NFT。  
+出入金/钱包/交易所：    
+支持 Arbitrum One 主网的中心化加密交易所包括 Bitget、币安、Bybit、Crypto.com、FTX、火币、KuCoin、MEXC、OKX 等，支持 ETH 或 USDT 的充提。  
+支持 Arbitrum One 主网的钱包包括 BitKeep、Coinbase Wallet、MetaMask、DeBank、imToken、MathWallet、Trust Wallet、Zapper、Zerion 等 24 个。  
+桥/跨链项目：    
+包括 Arbitrum One Bridge（官方桥）、Across Protocol、BoringDAO、Bungee、Multichain、Celer cBridge、Composable Finance Mosaic、Connext、deBridge、Hop、LI.FI、pNetwork、RenBridge、Router Protocol、Rubic、SOCKET、Stargate、Synapse Protocol 等，支持不同网络间的资产转移和兑换。  
+DeFi 应用：  
+包括衍生品、AMM 和收益优化项目，如 SushiSwap、1inch、Aave、Curve、dForce、Uniswap、Abracadabra、Balancer、Saddle Finance、Beefy Finance、DODO、MCDEX、Yearn Finance、Hashflow 等。  
+NFT 市场：  
+主要包括 Stratos、tofuNFT、TreasureDAO，其中 TreasureDAO 旗下元宇宙游戏 Bridgeworld 内的 NFT 系列热度偏高。  
+工具/基础设施支持：  
+包括 Band Protocol、Biconomy、BlockVision、Chainlink、Covalent、DefiLlama、Etherscan、Nansen、Snapshot、Tenderly、The Graph、Truffle Suite 等二十多个。  
+节点提供方：  
+包括 Alchemy、Ankr、DataHub、GetBlock、Infura、Moralis 和 QuickNode。  
 <!-- Content_END -->
