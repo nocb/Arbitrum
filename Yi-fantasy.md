@@ -630,4 +630,30 @@ btc 是基于交易的账本
 
 btc 总量：2100w个
 
+### 2024.12.23
+
+#### Bit Coin -网络
+
+应用层：bit coin 区块链
+
+网络层：p2p网络（所有节点都是平等的，通过 tcp 通信）
+
+
+
+设计原则：简单、健壮，但性能不高
+
+节点使用泛洪的方式向邻居节点发送通知，但是邻居节点的选取是随机的，并不以现实的网络拓扑为依据
+
+#### Bit Coin-挖矿难度
+
+H(block_header) <= target
+
+bit coin 的 hash 算法是 sha-256
+
+
+
+阈值调整公式：
+
+target = target * actual time(系统生成最近2016个区块花费的时间) / expected time(系统预计生成2016个区块花费的时间)
+
 <!-- Content_END -->
