@@ -259,6 +259,23 @@ Tally  Snapshot
 
 ### 2024.12.23
 
+#### 治理理念
+- Arbitrum DAO 是以太坊区块链上的去中心化自治组织，通过社区驱动治理， 
+- ARB的持有者可以对组织及技术变化，提议、投票。
+- 他基于智能合约的金库系统，安全理事会来管理，（半年一选），Security Council Members ， 12位，公开了其地址  
+
+#### 治理的论坛 
+https://forum.arbitrum.foundation/
+
+#### 案例分析
+- amelot 是 Arbitrum 上最大的原生 DEX
+- 申请资金最多的是 Arbitrum 上 DeFi 类代表项目 GMX
+
+- 参与者也需要额外满足一系列条件，如：
+	- 必须明确支出计划和目标，不得将 ARB 转换为其它资产；
+	- 必须承诺提供有关分配、ARB 支出、交易量、TVL、唯一地址、交易费用等指标；
+	- 必须完成 Arbitrum 基金会的 KYC；
+	- 资金只能用于 Arbitrum 网络上的激励等。
 
 ### 2024.12.24
 

@@ -118,4 +118,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 1. Arbitrum Orbit 生态探索 https://www.techflowpost.com/article/detail_15657.html
 
+### 2024.12.23
+
+1. 如何提交提案 https://docs.arbitrum.foundation/how-tos/create-submit-dao-proposal
+
 <!-- Content_END -->
