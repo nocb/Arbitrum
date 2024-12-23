@@ -145,6 +145,12 @@ Arbitrum的地位：
 Arbitrum 作为当前最领先的二层扩容解决方案之一，在各大扩容协议中占据了显著的市场份额。据 L2BEAT 数据显示，Arbitrum 在所有二层网络中以超 36 亿美元的市值领先，约占二层总锁仓量的 57%。而根据 DefiLlama 的统计数据，Arbitrum 的总锁仓量为 25.5 亿美元，略低于 L2BEAT 的数据。尽管如此，Arbitrum 生态系统依然显示出强大的吸引力，其中锁仓量超过 1 亿美元的项目包括知名的 DeFi 协议如 SushiSwap、GMX、Stargate、Curve、Dopex、Treasure DAO、Synapse 和 dForce 等，这些项目的表现显著推动了平台的成长。在 Arbitrum 上，SushiSwap 是占据主导地位的项目，单项目锁仓量超过 5 亿美元，占总锁仓量的 20%以上，紧随其后的是 GMX，锁仓量达到 4.38 亿美元。此外，在 DefiLlama 统计的 Arbitrum 生态中的 72 个项目中，40 个项目的锁仓量都超过了 100 万美元，且大多数是支持多链的协议，进一步提升了 Arbitrum 网络的去中心化金融生态影响力。从用户参与度来看，Arbitrum 的存款地址数在其主网上线后的去年激增，而最近几个月保持缓慢上升的趋势，目前累计存款地址已接近 25 万个。这些数据显示，Arbitrum 无论是在锁仓量还是生态增长方面，都在不断巩固其在二层扩容领域的领导地位。
 
 
+### 2024.12.23
+出入金与钱包支持：
+多个主流中心化交易所已集成 Arbitrum One 主网，支持 ETH 和 USDT 的充提，包括 Bitget、币安、Bybit、Crypto.com、FTX、火币、KuCoin、MEXC、OKX 等交易所。钱包方面，已有 24 个钱包支持 Arbitrum One 主网，如 BitKeep、Coinbase Wallet、MetaMask、DeBank、imToken、MathWallet、Trust Wallet、Zapper、Zerion 等。此外，Banxa 提供 Visa 或 Mastercard 卡直接购买 ETH 和 USDT 的服务；CryptoRefills 支持用户通过比特币等加密货币购买礼品卡或代金券，同时支持包括 Arbitrum 在内的多个网络；Mt Pelerin 和 Transak 等法币网关也支持在 Arbitrum 上购买和出售加密货币。
+
+跨链桥与资产转移：
+Arbitrum One Bridge 是官方跨链桥，允许在 L1 和 L2 之间进行多种代币的跨链转移，L1 到 L2 约需 10 分钟，L2 到 L1 约需 8 天。Across Protocol 支持以太坊、Optimism、Arbitrum 和 Boba 的跨链，但目前不支持 L2 间直接转移。Multichain 和 Celer cBridge 是较为热门的跨链工具，分别支持包括 Arbitrum 在内的多个网络；Hop Protocol 专注于以太坊、Polygon、Optimism 和 Arbitrum 等生态内的跨链转移。其他工具如 BoringDAO、Bungee、Connext、deBridge、LI.FI 和 RenBridge 等均支持多个网络的资产跨链转移或兑换，部分项目还发布了原生代币或激励计划。此外，基于 LayerZero 的 Stargate 和 Synapse Protocol 提供高效的跨链解决方案，支持以太坊、Arbitrum、BNB Chain 等主流网络间的互操作。Composable Finance Mosaic、SOCKET、Rubic 等工具也整合了多种桥接方案，为用户提供了更多选择。
 
 
 
