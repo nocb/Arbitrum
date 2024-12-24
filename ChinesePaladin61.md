@@ -524,4 +524,24 @@ Arbitrum Rollup 协议的治理由两个管理机构驱动：安全委员会和 
 安全理事会是一个由 Arbitrum DAO 成员选举产生的 12 人实体理事会。该委员会负责在必要时选择性地采取紧急行动，确保 Arbitrum 的安全和性能。请参阅 代表和委托 有关 Arbitrum DAO 委托机制的概念性概述。
 Arbitrum DAO 是由 $ARB 代币持有者及其选择的代表组成的全球社区。DAO 负责管理 Arbitrum 及其安全委员会。DAO 可以利用宪法提案来修改安理会的权力，甚至完全取消安理会。安全理事会的权力由 DAO 授予安全理事会，并以 DAO 的最佳利益为出发点。请参阅 Arbitrum DAO 以获取 DAO 各个组成部分的介绍性概述。
 
+### 2024.12.24
+
+$ARB
+Arbitrum 的治理代币，Arbitrum One 链原生的 ERC-20 代币。拥有 $ARB 使你成为 Arbitrum DAO 的成员，并允许你参与 Arbitrum 的链上治理。
+
+Arbitrum DAO
+由 $ARB 代币持有者和代表组成的全球社区。管理 Arbitrum One 链、Arbitrum Nova 链、Arbitrum DAO 的构成和安全理事会。
+
+Arbitrum DAO 治理论坛
+查看和讨论 Arbitrum 改进提案 （AIP） 和其他治理相关主题的公共论坛。
+
+Arbitrum DAO 金库
+Arbitrum One 链上的智能合约，包含由 Arbitrum DAO 集体控制的代币。
+
+Arbitrum 改进提案 （AIP）
+Arbitrum DAO 章程定义的治理提案。有两种类型的 AIP：宪法 AIP和非宪法 AIP。
+
+助记词
+也称为“恢复短语”或“备用短语”。一个高度敏感、确定性的单词序列，如果您丢失了凭证或设备，您可以使用该序列来恢复 Ethereum 钱包的私钥。
+
 <!-- Content_END -->
