@@ -1562,4 +1562,62 @@ AnyTrust Rollup 是一种专为**高频、低成本**场景设计的 Layer 2 解
 |-----|-----|-----|
 | Optimistic Rollup | 高安全性，依赖以太坊主链的完整性；适合高价值、低频交易 | DeFi 协议、NFT 交易等需要强安全保障的场景 |
 | AnyTrust Rollup | 高吞吐量，低存储成本；适合低价值、高频交互的应用 | 链游、社交网络、微交易等需要即时响应和低费用的场景 |
+
+### 2024.12.24
+
+#### Arbitrum 与其他 Layer 2 扩容解决方案的对比
+
+##### 核心技术对比
+
+| 特性 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| 扩容技术类型 | Optimistic Rollup  | Optimistic Rollup |  zk-Rollup |
+| 欺诈证明机制 | 多轮交互式欺诈证明（Interactive Fraud Proof）| 单轮欺诈证明（Single-Round Fraud Proof）| 零知识证明（Validity Proofs）|
+| 数据可用性 | 数据提交到以太坊 Layer 1 | 数据提交到以太坊 Layer 1 |  数据提交到以太坊 Layer 1 |
+| EVM 兼容性 | 高度兼容，支持现有 Solidity 合约 | 高度兼容，支持现有 Solidity 合约 | 部分兼容，需重新编译为 zkEVM Bytecode |
+| 性能  | 高吞吐量、较低费用 | 高吞吐量、较低费用 |  极高吞吐量、最低费用 |
+|合约语言支持 | Solidity、Vyper、Stylus（Rust、C++）|  Solidity、Vyper |  Solidity、Vyper（通过 zkEVM 支持） |
+
+##### 费用与性能对比
+
+| 指标 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| 吞吐量 | 高  | 高 | 极高 |
+| 交易费用 |  较低  | 较低 |  最低 |
+| 提现时间  | 7 天（通过欺诈证明期）| 7 天（通过欺诈证明期） | 即时（无欺诈证明期） |
+
+##### 生态特性对比
+
+| 生态特性 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| 生态项目数量 | 最大，超过 200 个主流项目 | 多，约 150+ 项目  | 生态快速增长中，支持 zkEVM 的新项目较多 |
+| 热门项目 | Uniswap、Aave、GMX、Curve  | Uniswap、Aave、Velodrome  | zkSync Era、DeversiFi |
+| 开发者支持 | 提供 Stylus 支持多语言开发 | 主流开发工具支持  | zkEVM 支持，需要学习新工具链 |
+| 社区与治理 | 强大的 DAO 治理（ARB 代币） | Optimism Collective 管理  | 社区治理初期 |
+
+##### 安全性对比
+
+| 安全性特性 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| 主链依赖| 依赖以太坊 Layer 1 提供最终性和数据安全 | 依赖以太坊 Layer 1 提供最终性和数据安全 | 依赖以太坊 Layer 1 提供最终性和数据安全 |
+| 验证机制  | 欺诈证明  | 欺诈证明  | 零知识证明 |
+| 抗争议能力 | 强（交互式验证减少链上成本） | 中（单轮验证适合简单场景） | 强（无需欺诈证明，完全基于数学证明）|
+
+##### 开发者体验
+
+| 开发特性 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| EVM 兼容性 | 100% 兼容（无需更改合约） | 100% 兼容（无需更改合约） | 需要编译为 zkEVM Bytecode |
+| 工具链支持 | 支持 Hardhat、Truffle、Remix 等  | 支持 Hardhat、Truffle、Remix 等 | 支持 zkEVM 的新工具链 |
+| 文档和支持 |文档全面，开发者社区活跃  | 文档完善，开发者社区较活跃  | 文档日趋完善，新开发者社区快速成长 |
+
+##### 实用场景与适用性
+
+| 场景 | Arbitrum | Optimism | zkSync |
+|-----|-----|-----| -----|
+| DeFi 协议 |  强大的 DeFi 支持，低成本、高吞吐量  | 适合 DeFi 协议，费用和性能优良  | 极适合高安全性需求的 DeFi 应用 |
+| NFT 交易 | 支持 NFT 市场，如 OpenSea | 支持 NFT 市场，如 Quixotic  | 支持 NFT 市场，适合隐私型交易 |
+| 链游与社交 | Arbitrum Nova 适合高频交互场景 |  支持，但费用略高 |  zkSync Era 适合实时互动需求 |
+| 企业级应用 | 提供定制化支持（通过 Orbit 构建 Layer 3）|  支持大规模商业应用  | 高隐私和高安全需求的企业应用 |
+
 <!-- Content_END -->
