@@ -122,4 +122,10 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[代币流通供应量](https://docs.arbitrum.foundation/token-supply)
 
+### 2024.12.24
+
+阅读文档[Arbitrum 原生代币 ARB 经济模型、价值主张和未来前景](https://foresightnews.pro/article/detail/28817)
+
+阅读文档[Arbitrum 代币经济、机构成本、估值分析](https://foresightnews.pro/article/detail/28668)
+
 <!-- Content_END -->
