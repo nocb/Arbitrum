@@ -128,4 +128,10 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[Arbitrum 代币经济、机构成本、估值分析](https://foresightnews.pro/article/detail/28668)
 
+### 2024.12.25
+
+阅读文档[DAO 宪法](https://docs.arbitrum.foundation/dao-constitution)
+
+阅读文档[DAO 术语表](https://docs.arbitrum.foundation/dao-glossary)
+
 <!-- Content_END -->

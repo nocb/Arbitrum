@@ -126,5 +126,9 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 1. 治理理念 https://docs.arbitrum.foundation/concepts/arbitrum-dao
 
+### 2024.12.25
+
+1. 治理架构 https://docs.arbitrum.foundation/security-council-members
+
 
 <!-- Content_END -->

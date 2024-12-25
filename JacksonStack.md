@@ -268,4 +268,16 @@ NFT 市场：
 包括 Band Protocol、Biconomy、BlockVision、Chainlink、Covalent、DefiLlama、Etherscan、Nansen、Snapshot、Tenderly、The Graph、Truffle Suite 等二十多个。  
 节点提供方：  
 包括 Alchemy、Ankr、DataHub、GetBlock、Infura、Moralis 和 QuickNode。  
+### 2024.12.25
+$ARB代币是一种ERC-20治理代币，持有者可以通过它参与Arbitrum DAO的链上治理协议。这意味着持有者可以对影响Arbitrum One和Arbitrum Nova链的提案进行投票，包括链的升级和DAO金库资金的使用。  
+Arbitrum DAO负责管理宪法中定义的治理协议以及DAO所管理的技术，包括Arbitrum One和Arbitrum Nova链及其底层协议。 
+持有的$ARB代币越多，投票的影响力就越大，因为Arbitrum DAO的智能合约实现了代币加权投票，即投票的力量由选民钱包中的代币数量决定。  
+
+$ARB代币可以委托给其他钱包，这意味着即使您没有时间定期审查和讨论提案，也可以通过委托您的投票权来参与治理。  
+
+$ARB代币的初始供应量为1000亿枚，新$ARB代币最多可以以每年2%的供应量速度铸造，第一批铸造活动于2024年3月15日成为可能。  
+Arbitrum DAO通过宪法提案执行$ARB代币的铸造活动，并且随着$ARB代币的空投，Arbitrum的治理权正式转移到Arbitrum DAO手中，标志着向去中心化治理的转变。  
+
+要参与Arbitrum DAO治理，您需要持有$ARB代币的以太坊钱包，并可以通过连接到Tally的Arbitrum DAO页面进行委托投票。  
+
 <!-- Content_END -->
