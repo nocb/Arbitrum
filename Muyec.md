@@ -153,7 +153,14 @@ Arbitrum 作为当前最领先的二层扩容解决方案之一，在各大扩�
 Arbitrum One Bridge 是官方跨链桥，允许在 L1 和 L2 之间进行多种代币的跨链转移，L1 到 L2 约需 10 分钟，L2 到 L1 约需 8 天。Across Protocol 支持以太坊、Optimism、Arbitrum 和 Boba 的跨链，但目前不支持 L2 间直接转移。Multichain 和 Celer cBridge 是较为热门的跨链工具，分别支持包括 Arbitrum 在内的多个网络；Hop Protocol 专注于以太坊、Polygon、Optimism 和 Arbitrum 等生态内的跨链转移。其他工具如 BoringDAO、Bungee、Connext、deBridge、LI.FI 和 RenBridge 等均支持多个网络的资产跨链转移或兑换，部分项目还发布了原生代币或激励计划。此外，基于 LayerZero 的 Stargate 和 Synapse Protocol 提供高效的跨链解决方案，支持以太坊、Arbitrum、BNB Chain 等主流网络间的互操作。Composable Finance Mosaic、SOCKET、Rubic 等工具也整合了多种桥接方案，为用户提供了更多选择。
 
 
+### 2024.12.24
 
+Tracer DAO：衍生品元协议与治理发展
+Tracer DAO 是一个基于 Balancer 构建的衍生品元协议，其核心应用是 Perpetual Pools，用户可通过杠杆代币形式实现无需清算且长期持有的交易，还能通过质押赚取奖励，同时具有高资本效率和可组合性。Tracer V1 收取 1% 的协议费用，V2 即将推出，将允许无需许可的部署。项目已发布治理代币 TCR，并将 10% 分配用于流动性挖矿奖励计划。此外，Tracer DAO 曾获 Framework Ventures 等知名机构投资，共融资 900 万美元。
 
+### 2024.12.25
+
+Arbitrum 生态：多元化的应用布局
+在 Arbitrum 生态上，主要项目覆盖兑换、借贷、流动性管理和 NFT 市场等领域。例如，Swapr、ZipSwap 等支持多链 AMM；Aave V3、Vesta Finance 等提供跨链资产流动性和借贷服务；iZUMi Finance、YIN Finance 等专注流动性挖矿和主动流动性管理；Superfluid 则实现可编程资金流；NFT 市场方面，Stratos 和 TreasureDAO 热度较高，后者通过 MAGIC 代币计价并推出 Bridgeworld 元宇宙游戏，增强了其生态吸引力。
 
 <!-- Content_END -->
