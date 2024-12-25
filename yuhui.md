@@ -191,4 +191,25 @@ Arbitrum 的生态系统迅速扩展，其创新体现在：
 7. 创新的开发者工具
 Arbitrum SDK： 提供简单易用的开发工具，方便开发者快速集成 Layer 2 功能。
 优越的调试环境： 开发者可以利用 Arbitrum 提供的工具对智能合约进行链下调试，大大提升开发效率。
+### 2024.12.25
+笔记内容:Arbitrum的生态  
+1. DeFi（去中心化金融）
+Arbitrum 是 DeFi 生态的重要组成部分，众多知名 DeFi 项目已经在其网络上部署或扩展：
+交易协议：
+Uniswap 和 SushiSwap 等去中心化交易所（DEX）在 Arbitrum 上提供高效、低成本的交易服务。
+支持 AMM 模式，同时扩展限价单等功能。
+借贷协议：
+Aave 和 Compound 等主流借贷协议在 Arbitrum 上运行，用户可以以更低的费用参与借贷市场。
+衍生品：
+Arbitrum 上的项目（如 GMX 和 Perpetual Protocol）专注于合约交易和杠杆衍生品，为高频交易者提供极低延迟和高效体验。
+
+2. NFT 和游戏
+
+Arbitrum 的低费用和高吞吐量为 NFT 和区块链游戏提供了理想环境：
+NFT 市场：
+TreasureDAO 是 Arbitrum 上的知名 NFT 生态系统，建立了以 $MAGIC 为核心的元宇宙经济。
+Stratos 和 TofuNFT 提供多样化的 NFT 交易服务。
+区块链游戏：
+游戏开发者利用 Arbitrum Nova 提供的低延迟和高性能，构建了如 Smolverse 等生态。
+支持 Play-to-Earn（P2E）模式，让用户参与游戏的同时获得经济回报。
 <!-- Content_END -->
