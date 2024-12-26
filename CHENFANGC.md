@@ -134,4 +134,12 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 阅读文档[DAO 术语表](https://docs.arbitrum.foundation/dao-glossary)
 
+### 2024.12.26
+
+阅读文档[如何提交 DAO 提案](https://docs.arbitrum.foundation/how-tos/create-submit-dao-proposal)
+
+阅读文档[治理理念](https://docs.arbitrum.foundation/concepts/arbitrum-dao)
+
+阅读文档[治理架构](https://docs.arbitrum.foundation/security-council-members)
+
 <!-- Content_END -->
