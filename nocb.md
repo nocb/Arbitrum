@@ -289,6 +289,8 @@ https://forum.arbitrum.foundation/
 #### Arbitrum 开发文档
 https://docs.arbitrum.io/welcome/get-started
 
+https://github.com/dysquard/Arbitrum_Doc_CN   中文文档
+
 - Arbitrum 门户
 https://portal.arbitrum.io/?chains=arbitrum-one
 
