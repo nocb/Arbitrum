@@ -130,5 +130,9 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 1. 治理架构 https://docs.arbitrum.foundation/security-council-members
 
+### 2024.12.26
+
+1. 代币经济、机构成本、估值分析 https://foresightnews.pro/article/detail/28668
+
 
 <!-- Content_END -->
