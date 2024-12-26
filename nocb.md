@@ -284,7 +284,24 @@ https://forum.arbitrum.foundation/
 
 
 ### 2024.12.26
+   昨天忘记 提交了  
 
+#### Arbitrum 开发文档
+https://docs.arbitrum.io/welcome/get-started
+
+- Arbitrum 门户
+https://portal.arbitrum.io/?chains=arbitrum-one
+
+- 测试链 
+	- https://rinkeby.arbitrum.io/rpc
+	- ChainID: 421611
+	- 浏览器 https://rinkeby-explorer.arbitrum.io/#/
+	- 水龙头： https://faucet.rinkeby.io/
+
+- 运行 Arbitrum One完整节点
+	- Docker镜像: offchainlabs/arb-node:v1.3.0-d994f7d
+	- 数据库应挂载到外部磁盘，以便在重启时能永久保存数据
+	- Arbitrum 中继： 当运行多个节点时，你希望运行一个 Arbitrum 中继并为所有节点提供回馈
 
 ### 2024.12.27
 
