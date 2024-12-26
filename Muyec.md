@@ -163,4 +163,10 @@ Tracer DAO 是一个基于 Balancer 构建的衍生品元协议，其核心应�
 Arbitrum 生态：多元化的应用布局
 在 Arbitrum 生态上，主要项目覆盖兑换、借贷、流动性管理和 NFT 市场等领域。例如，Swapr、ZipSwap 等支持多链 AMM；Aave V3、Vesta Finance 等提供跨链资产流动性和借贷服务；iZUMi Finance、YIN Finance 等专注流动性挖矿和主动流动性管理；Superfluid 则实现可编程资金流；NFT 市场方面，Stratos 和 TreasureDAO 热度较高，后者通过 MAGIC 代币计价并推出 Bridgeworld 元宇宙游戏，增强了其生态吸引力。
 
+### 2024.12.26
+比特币现货ETF获批及以太坊生态的快速发展:1月11日，比特币现货ETF终于获得批准，为传统投资者提供了新的进入加密市场的途径。与此同时，以太坊即将迎来Dencun升级，其中以EIP-4844为核心的技术将大幅降低L2交易费用并提升性能，这使得以太坊在扩展性方面获得了更强的支持，Arbitrum作为以太坊的主要L2解决方案，也因此成为市场关注的焦点。
+
+Arbitrum生态的崛起：Arbitrum生态在不断扩展，Offchain Labs推出的Arbitrum Orbit使得开发者能够无需许可地构建专用链。这一创新使得基于以太坊的多链架构成为可能，且每个Orbit链都具备高度自定义能力，支持定制Gas费用、吞吐量、隐私和治理等功能。特别是Arbitrum Orbit对自定义Gas代币的支持，能够进一步增强链内代币的实用性并推动生态系统的发展。
+
+Arbitrum Orbit生态项目的潜力:目前，已有多个项目计划通过Arbitrum Orbit推出专用链，涵盖游戏、NFT、DeFi等多个领域。例如，Xai专注于为游戏打造去中心化平台，Frame面向创作者和收藏家，而RARI Chain则通过低交易成本和集成多个平台为NFT市场提供支持。这些创新项目展示了Arbitrum Orbit在多元化应用中的巨大潜力，也为以太坊生态的未来增添了新的动力。
 <!-- Content_END -->
