@@ -279,5 +279,14 @@ $ARB代币的初始供应量为1000亿枚，新$ARB代币最多可以以每年2%
 Arbitrum DAO通过宪法提案执行$ARB代币的铸造活动，并且随着$ARB代币的空投，Arbitrum的治理权正式转移到Arbitrum DAO手中，标志着向去中心化治理的转变。  
 
 要参与Arbitrum DAO治理，您需要持有$ARB代币的以太坊钱包，并可以通过连接到Tally的Arbitrum DAO页面进行委托投票。  
-
+### 2024.12.26
+Arbitrum 经济模型
+$ARB 供应和分配概览
+$ARB代币的总供应量初始上限为100亿枚，其中17.53%分配给Offchain Labs投资者，1.13%分配给Arbitrum生态系统中的DAO，11.62%通过空投分配给Arbitrum平台用户，42.78%分配给Arbitrum DAO国库，26.94%分配给Offchain Labs团队、未来团队和顾问。  
+治理方式
+Arbitrum推出了自执行DAO治理模型，$ARB代币持有者可以对Arbitrum One和Arbitrum Nova网络的治理提案进行投票。  
+治理是自执行的，意味着投票结果将直接影响并执行链上决策，无需中介。  
+ARB 的价值主张空投认领规则和方法
+用户空投资格
+DAO 空投标准和分配
 <!-- Content_END -->
