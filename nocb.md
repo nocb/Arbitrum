@@ -307,6 +307,7 @@ https://portal.arbitrum.io/?chains=arbitrum-one
 
 ### 2024.12.27
 
+https://github.com/dysquard/Arbitrum_Doc_CN/blob/master/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8D%8F%E8%AE%AE/%E6%B4%9E%E6%82%89Arbitrum.md 
 #### 机制的深入理解  
 - Arbitrum是一种rollup，这意味着对Arbitrum链的输入也即收件箱中收到的信息，全部都以**calldata**的形式被记录在以太坊上。每个人都能查看收件箱的完整历史，而链状态又完全取决于收件箱历史。因此，仅凭借公开信息就可以决定当前正确的链状态的信息。如有必要，还可重建整个链状态。
 - rollup 协议是在L1 上的合约。
