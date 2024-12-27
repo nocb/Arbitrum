@@ -134,5 +134,9 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 1. 代币经济、机构成本、估值分析 https://foresightnews.pro/article/detail/28668
 
+### 2024.12.27
+
+1. 官方治理文档 https://docs.arbitrum.foundation/gentle-intro-dao-governance
+
 
 <!-- Content_END -->
