@@ -654,7 +654,7 @@ Fellowship 计划不要求股权，而 Venture 计划 要求受助项目通过 S
 
 成果总结：我们将创业从“单人游戏”转变为“多人游戏”，降低受助项目失败率和迁移率，打造更可持续的项目。
 
-### 2024.12.26
+### 2024.12.27
 
 **Arbitrum Hackathon Builder Continuation Program**
 
